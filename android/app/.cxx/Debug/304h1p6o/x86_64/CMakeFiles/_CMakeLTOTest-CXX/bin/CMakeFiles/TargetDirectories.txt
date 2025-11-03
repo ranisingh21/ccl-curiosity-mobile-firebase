@@ -1,0 +1,4 @@
+/home/shanti/ccl-curiosity-mobile-demo/android/app/.cxx/Debug/304h1p6o/x86_64/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir
+/home/shanti/ccl-curiosity-mobile-demo/android/app/.cxx/Debug/304h1p6o/x86_64/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir
+/home/shanti/ccl-curiosity-mobile-demo/android/app/.cxx/Debug/304h1p6o/x86_64/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/edit_cache.dir
+/home/shanti/ccl-curiosity-mobile-demo/android/app/.cxx/Debug/304h1p6o/x86_64/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/rebuild_cache.dir

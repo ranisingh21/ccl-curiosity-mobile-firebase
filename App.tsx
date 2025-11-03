@@ -1,28 +1,71 @@
-// Shanti 
-// import React from "react";
-// import { NavigationContainer } from "@react-navigation/native";
-// import { createNativeStackNavigator } from "@react-navigation/native-stack";
-// import IntroScreen from "./src/screens/registration/IntroScreen";
-// import WelcomeScreen from "./src/screens/registration/WelcomeScreen";
-// import RegSelectSchoolScreen from "../src/screens/registration/RegSelectSchoolScreen";
-// import RegSuccess from "../src/screens/egistration/RegSuccess";
+// // Shanti 
+// // import React from "react";
+// import {React, Text ,View} from "react-native";
+// // import { NavigationContainer } from "@react-navigation/native";
+// // import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
-// const Stack = createNativeStackNavigator();
+// // import IntroScreen from "./src/screens/registration/IntroScreen";
+// // import IntroScreen from "./src/screens/registration/IntroScreen";
+// // import WelcomeScreen from "./src/screens/registration/WelcomeScreen";
+// // import RegSelectSchoolScreen from "./src/screens/registration/RegSelectSchoolScreen";
+// // import RegSuccess from "./src/screens/registration/RegSuccess";
+
+// // const Stack = createNativeStackNavigator();
 
 // export default function App() {
 //   return (
-//     <NavigationContainer>
-//       <Stack.Navigator screenOptions={{ headerShown: false }} initialRouteName="IntroScreen">
-//         <Stack.Screen name="IntroScreen" component={IntroScreen} />
-//         <Stack.Screen name="WelcomeScreen" component={WelcomeScreen} />
-//         <Stack.Screen name="RegSelectSchoolScreen" component={RegSelectSchoolScreen} />
-//         <Stack.Screen name="RegSuccess" component={RegSuccess} />
-//       </Stack.Navigator>
-//     </NavigationContainer>
+//     // <NavigationContainer>
+//     //   <Stack.Navigator>
+//         // {/* // screenOptions={{ headerShown: false }} */}
+//         // {/* initialRouteName="IntroScreen" */}
+//         // <IntroScreen />
+//     //     {/* <Stack.Screen name="IntroScreen" component={IntroScreen} />
+//     //     <Stack.Screen name="WelcomeScreen" component={WelcomeScreen} />
+//     //     <Stack.Screen
+//     //       name="RegSelectSchoolScreen"
+//     //       component={RegSelectSchoolScreen}
+//     //     />
+//     //     <Stack.Screen name="RegSuccess" component={RegSuccess} /> */}
+//     // //   </Stack.Navigator>
+//     // // </NavigationContainer>
+//     <View><Text>Hello</Text></View>
 //   );
 // }
 
 
+
+// Shanti 
+import React from "react";
+import { NavigationContainer } from "@react-navigation/native";
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
+
+import IntroScreen from "./src/screens/registration/IntroScreen";
+import WelcomeScreen from "./src/screens/registration/WelcomeScreen";
+import RegSelectSchoolScreen from "./src/screens/registration/RegSelectSchoolScreen";
+import RegSuccess from "./src/screens/registration/RegSuccess";
+import BlankComponent from "./src/screens/registration/BlankComponent";
+
+const Stack = createNativeStackNavigator();
+
+export default function App() {
+  return (
+    <NavigationContainer>
+      <Stack.Navigator
+        screenOptions={{ headerShown: false }}
+        initialRouteName="IntroScreen"
+      >
+        <Stack.Screen name="IntroScreen" component={IntroScreen} />
+        <Stack.Screen name="WelcomeScreen" component={WelcomeScreen} />
+        <Stack.Screen
+          name="RegSelectSchoolScreen"
+          component={RegSelectSchoolScreen}
+        />
+        <Stack.Screen name="RegSuccess" component={RegSuccess} />
+        <Stack.Screen name="BlankComponent" component={BlankComponent} />
+      </Stack.Navigator>
+    </NavigationContainer>
+  );
+}
 
 
 // Pooja 
@@ -39,21 +82,21 @@
 // 
 // const App = () => {
   // return (
-    // <ScrollView>
-      {/* <SafeAreaView style={globalStyles.safe}> */}
-        {/* <SessionHeader /> */}
-{/*  */}
-        {/* <View style={globalStyles.bodyContainer}> */}
-          {/* <SessionDetailCard /> */}
-          {/* <View style={globalStyles.joinSessionDevices}> */}
-            {/* <JoinSessionDesktop /> */}
-            {/* <JoinSessionMobile /> */}
-          {/* </View> */}
-          {/* <TaskListCard /> */}
-        {/* </View> */}
-        {/* <SessionFooter /> */}
-      {/* </SafeAreaView> */}
-    {/* </ScrollView> */}
+//     // <ScrollView>
+//       {/* <SafeAreaView style={globalStyles.safe}> */}
+//         {/* <SessionHeader /> */}
+// {/*  */}
+//         {/* <View style={globalStyles.bodyContainer}> */}
+//           {/* <SessionDetailCard /> */}
+//           {/* <View style={globalStyles.joinSessionDevices}> */}
+//             {/* <JoinSessionDesktop /> */}
+//             {/* <JoinSessionMobile /> */}
+//           {/* </View> */}
+//           {/* <TaskListCard /> */}
+//         {/* </View> */}
+//         {/* <SessionFooter /> */}
+//       {/* </SafeAreaView> */}
+//     {/* </ScrollView> */}
   // );
 // };
 // 
@@ -67,17 +110,17 @@
 
 // Mahima
 // App.tsx
-import React from 'react';
-import { SafeAreaProvider } from 'react-native-safe-area-context';
-import AppNavigator from './src/screens/sessionList/navigation';
+// import React from 'react';
+// import { SafeAreaProvider } from 'react-native-safe-area-context';
+// import AppNavigator from './src/screens/sessionList/navigation';
 
-export default function App() {
-  return (
-    <SafeAreaProvider>
-      <AppNavigator />
-    </SafeAreaProvider>
-  );
-}
+// export default function App() {
+//   return (
+//     <SafeAreaProvider>
+//       <AppNavigator />
+//     </SafeAreaProvider>
+//   );
+// }
 // 
 
 

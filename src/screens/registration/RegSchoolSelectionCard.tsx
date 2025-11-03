@@ -1,6 +1,6 @@
 import React from "react";
 import { View, Text, TouchableOpacity, Image } from "react-native";
-import styles from "../styles/RegSchoolSelectionCard";
+import styles from "../../styles/registration/RegSchoolSelectionCard";
 import NextButton from "./NextButton";
 
 interface RegSchoolSelectionCardProps {
@@ -13,7 +13,7 @@ const RegSchoolSelectionCard: React.FC<RegSchoolSelectionCardProps> = ({ onNext}
       <View style={styles.headerBox}>
         <TouchableOpacity style={styles.headerIconWrapper}>
           <Image
-            source={require("../assets/images/Icon.png")}
+            source={require("../../assets/Images/Icon.png")}
             style={styles.headerIcon}
             resizeMode="contain"
           />
@@ -27,7 +27,7 @@ const RegSchoolSelectionCard: React.FC<RegSchoolSelectionCardProps> = ({ onNext}
 				<View style={styles.bannerRowTop}>
 					<View style={styles.bannerIconWrapper}>
 						<Image
-						source={require("../assets/images/Discussion.png")}
+						source={require("../../assets/Images/Discussion.png")}
 						style={styles.bannerIcon}
 						resizeMode="cover"
 						/>
@@ -39,7 +39,7 @@ const RegSchoolSelectionCard: React.FC<RegSchoolSelectionCardProps> = ({ onNext}
 					<Text style={styles.bannerTextBottom}>में नहीं है</Text>
 					<View style={styles.bannerArrowWrapper}>
 						<Image
-						source={require("../assets/images/Frame 3473171.png")}
+						source={require("../../assets/Images/Frame 3473171.png")}
 						style={styles.bannerArrow}
 						resizeMode="cover"
 						/>
@@ -55,7 +55,7 @@ const RegSchoolSelectionCard: React.FC<RegSchoolSelectionCardProps> = ({ onNext}
             <Text style={styles.fieldValue}>Punjab</Text>
             <View style={styles.dropdownIconWrapper}>
               <Image
-                source={require("../assets/images/downArrowIcon.png")}
+                source={require("../../assets/Images/downArrowIcon.png")}
                 style={styles.dropdownIcon}
                 resizeMode="cover"
               />
@@ -69,7 +69,7 @@ const RegSchoolSelectionCard: React.FC<RegSchoolSelectionCardProps> = ({ onNext}
             <Text style={styles.fieldValue}>Bathinda</Text>
             <View style={styles.dropdownIconWrapper}>
               <Image
-                source={require("../assets/images/downArrowIcon.png")}
+                source={require("../../assets/Images/downArrowIcon.png")}
                 style={styles.dropdownIcon}
                 resizeMode="cover"
               />
@@ -83,7 +83,7 @@ const RegSchoolSelectionCard: React.FC<RegSchoolSelectionCardProps> = ({ onNext}
             <Text style={styles.fieldValue}>Sangat Guda</Text>
             <View style={styles.dropdownIconWrapper}>
               <Image
-                source={require("../assets/images/downArrowIcon.png")}
+                source={require("../../assets/Images/downArrowIcon.png")}
                 style={styles.dropdownIcon}
                 resizeMode="contain"
               />

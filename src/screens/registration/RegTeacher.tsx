@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text, Image, TouchableOpacity } from "react-native";
 import { useNavigation } from "@react-navigation/native";
-import styles from "../styles/RegTeacher";
+import styles from "../../styles/registration/RegTeacher";
 import SubmitButton from "./SubmitButton";
 
 interface RegTeacherProps {
@@ -20,7 +20,7 @@ const RegTeacher: React.FC<RegTeacherProps> = ({ onBack }) => {
       <View style={styles.headerBox}>
         <TouchableOpacity onPress={onBack} style={styles.headerIconWrapper}>
           <Image
-            source={require("../assets/images/Icon.png")}
+            source={require("../../assets/Images/Icon.png")}
             style={styles.headerIcon}
             resizeMode="contain"
           />
