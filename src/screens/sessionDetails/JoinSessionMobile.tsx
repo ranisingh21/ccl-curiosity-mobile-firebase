@@ -8,7 +8,7 @@ import {
   TextStyle,
   Image,
 } from 'react-native';
-import { styles } from '../styles/JoinSessionMobile';
+import { styles } from '../../styles/sessionDetails/JoinSessionMobile';
 
 interface JoinSessionMobileProps {
   containerStyle?: StyleProp<ViewStyle>; 
@@ -26,7 +26,7 @@ const JoinSessionMobile: React.FC<JoinSessionMobileProps> = ({
       <Pressable style={styles.actionRow}>
         <View style={[styles.iconCircle, { backgroundColor: '#2D8CFF20' }]}>
           <Image
-            source={require('../../assets/images/session-page-zoom-logo.png')}
+            source={require('../../assets/Images/session-page-zoom-logo.png')}
             // style={styles.sessionActivityImage}
             resizeMode="contain"
           />
@@ -38,7 +38,7 @@ const JoinSessionMobile: React.FC<JoinSessionMobileProps> = ({
       <Pressable style={[styles.actionRow, { marginTop: 12 }]}>
         <View style={styles.iconCircle}>
                     <Image
-            source={require('../../assets/images/session-page-youtube-logo.png')}
+            source={require('../../assets/Images/session-page-youtube-logo.png')}
             resizeMode="contain"
           />
         </View>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, Pressable, TextInput } from 'react-native';
-import { styles } from '../styles/JoinSessionDesktop';
+import { styles} from '../../styles/sessionDetails//JoinSessionDesktop';
 const JoinSessionDesktop: React.FC = () => {
   return (
     <View style={styles.allCard}>

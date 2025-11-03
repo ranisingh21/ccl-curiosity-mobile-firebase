@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, Image } from 'react-native';
-import { styles } from '../styles/SessionDetailCard';
+import { styles} from '../../styles/sessionDetails/SessionDetailCard';
 
 export default function SessionDetailCard() {
   const Card: React.FC<{ children: React.ReactNode }> = ({ children }) => (
@@ -83,7 +83,7 @@ export default function SessionDetailCard() {
           </View>
           <View style={styles.imagebox}>
             <Image
-              source={require('../../assets/images/session-activity-image.png')}
+              source={require('../../assets/Images/session-activity-image.png')}
               style={styles.sessionActivityImage}
               resizeMode="contain"
             />
