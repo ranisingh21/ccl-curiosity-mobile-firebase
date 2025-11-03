@@ -24,6 +24,48 @@
 
 
 
+
+// Pooja 
+// import { View, ScrollView } from 'react-native';
+// import { SafeAreaView } from 'react-native-safe-area-context';
+// import { globalStyles } from './globalStyles';
+// 
+// import SessionHeader from './screens/SessionHeader'; 
+// import SessionDetailCard from './screens/SessionDetailCard';
+// import JoinSessionDesktop from './screens/JoinSessionDesktop';
+// import JoinSessionMobile from './screens/JoinSessionMobile';
+// import TaskListCard from './screens/TaskListCard';
+// import SessionFooter from './screens/SessionFooter';
+// 
+// const App = () => {
+  // return (
+    // <ScrollView>
+      {/* <SafeAreaView style={globalStyles.safe}> */}
+        {/* <SessionHeader /> */}
+{/*  */}
+        {/* <View style={globalStyles.bodyContainer}> */}
+          {/* <SessionDetailCard /> */}
+          {/* <View style={globalStyles.joinSessionDevices}> */}
+            {/* <JoinSessionDesktop /> */}
+            {/* <JoinSessionMobile /> */}
+          {/* </View> */}
+          {/* <TaskListCard /> */}
+        {/* </View> */}
+        {/* <SessionFooter /> */}
+      {/* </SafeAreaView> */}
+    {/* </ScrollView> */}
+  // );
+// };
+// 
+// export default App;
+// 
+
+
+
+
+
+
+// Mahima
 // App.tsx
 // import React from 'react';
 // import { SafeAreaProvider } from 'react-native-safe-area-context';
@@ -36,6 +78,17 @@
 //     </SafeAreaProvider>
 //   );
 // }
+// 
+// export default function App() {
+  // return (
+    // <SafeAreaProvider>
+      {/* <AppNavigator /> */}
+    {/* </SafeAreaProvider> */}
+  // );
+// }
+
+
+
 
 // App.tsx
 // import React from 'react';
