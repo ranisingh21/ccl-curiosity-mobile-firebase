@@ -1,0 +1,4 @@
+/home/pooja-meena/ccl-curiosity-mobile-demo/android/app/.cxx/Debug/4j273l1c/x86/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir
+/home/pooja-meena/ccl-curiosity-mobile-demo/android/app/.cxx/Debug/4j273l1c/x86/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir
+/home/pooja-meena/ccl-curiosity-mobile-demo/android/app/.cxx/Debug/4j273l1c/x86/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/edit_cache.dir
+/home/pooja-meena/ccl-curiosity-mobile-demo/android/app/.cxx/Debug/4j273l1c/x86/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/rebuild_cache.dir

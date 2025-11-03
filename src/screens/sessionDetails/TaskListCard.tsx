@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, Pressable } from 'react-native';
-import { styles } from '../../styles/sessionDetails/TaskListCard';
+import { styles} from '../../styles/sessionDetails/TaskListCard';
 
 const TaskListCard = () => {
   return (
@@ -46,7 +46,6 @@ const TaskListCard = () => {
           </View>
           <View style={styles.divider} />
         </View>
-        {/* <View style={styles.challengeBox}> */}
           <View style={styles.taskRow}>
             <Text style={styles.taskLabel}>Challenge Question</Text>
             <Pressable
@@ -56,7 +55,6 @@ const TaskListCard = () => {
               <Text style={styles.ctaArrow}>→</Text>
             </Pressable>
           </View>
-        {/* </View> */}
       </View>
     </View>
   );

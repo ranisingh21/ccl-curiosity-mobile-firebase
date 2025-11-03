@@ -16,7 +16,7 @@ const SessionFooter: React.FC = () => {
         </View>
         <Pressable
           style={styles.joinBtn}
-          onPress={() => console.log('Join clicked')}
+          onPress={() => console.log("Join clicked")}
         >
           <Text style={styles.joinText}>JOIN</Text>
         </Pressable>

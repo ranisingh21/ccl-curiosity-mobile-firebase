@@ -97,7 +97,7 @@ export default function App() {
 // export default function App() {
 //   return (
 //     <SafeAreaProvider>
-//       {/* Display the width and height values */}
+//       { Display the width and height values }
 //       <Text>
 //         Width: {SIZE_MATTERS_BASE_WIDTH}, Height: {SIZE_MATTERS_BASE_HEIGHT}
 //       </Text>

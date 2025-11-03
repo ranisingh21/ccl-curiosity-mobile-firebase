@@ -1,0 +1,15 @@
+/home/pooja-meena/ccl-curiosity-mobile-demo/android/app/.cxx/Debug/4j273l1c/armeabi-v7a/CMakeFiles/appmodules.dir
+/home/pooja-meena/ccl-curiosity-mobile-demo/android/app/.cxx/Debug/4j273l1c/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/pooja-meena/ccl-curiosity-mobile-demo/android/app/.cxx/Debug/4j273l1c/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/home/pooja-meena/ccl-curiosity-mobile-demo/android/app/.cxx/Debug/4j273l1c/armeabi-v7a/rngesturehandler_codegen_autolinked_build/CMakeFiles/react_codegen_rngesturehandler_codegen.dir
+/home/pooja-meena/ccl-curiosity-mobile-demo/android/app/.cxx/Debug/4j273l1c/armeabi-v7a/rngesturehandler_codegen_autolinked_build/CMakeFiles/edit_cache.dir
+/home/pooja-meena/ccl-curiosity-mobile-demo/android/app/.cxx/Debug/4j273l1c/armeabi-v7a/rngesturehandler_codegen_autolinked_build/CMakeFiles/rebuild_cache.dir
+/home/pooja-meena/ccl-curiosity-mobile-demo/android/app/.cxx/Debug/4j273l1c/armeabi-v7a/safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir
+/home/pooja-meena/ccl-curiosity-mobile-demo/android/app/.cxx/Debug/4j273l1c/armeabi-v7a/safeareacontext_autolinked_build/CMakeFiles/edit_cache.dir
+/home/pooja-meena/ccl-curiosity-mobile-demo/android/app/.cxx/Debug/4j273l1c/armeabi-v7a/safeareacontext_autolinked_build/CMakeFiles/rebuild_cache.dir
+/home/pooja-meena/ccl-curiosity-mobile-demo/android/app/.cxx/Debug/4j273l1c/armeabi-v7a/rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir
+/home/pooja-meena/ccl-curiosity-mobile-demo/android/app/.cxx/Debug/4j273l1c/armeabi-v7a/rnscreens_autolinked_build/CMakeFiles/edit_cache.dir
+/home/pooja-meena/ccl-curiosity-mobile-demo/android/app/.cxx/Debug/4j273l1c/armeabi-v7a/rnscreens_autolinked_build/CMakeFiles/rebuild_cache.dir
+/home/pooja-meena/ccl-curiosity-mobile-demo/android/app/.cxx/Debug/4j273l1c/armeabi-v7a/rnsvg_autolinked_build/CMakeFiles/react_codegen_rnsvg.dir
+/home/pooja-meena/ccl-curiosity-mobile-demo/android/app/.cxx/Debug/4j273l1c/armeabi-v7a/rnsvg_autolinked_build/CMakeFiles/edit_cache.dir
+/home/pooja-meena/ccl-curiosity-mobile-demo/android/app/.cxx/Debug/4j273l1c/armeabi-v7a/rnsvg_autolinked_build/CMakeFiles/rebuild_cache.dir
