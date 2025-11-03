@@ -1,9 +1,9 @@
 import React, { useMemo, useState } from 'react';
 import { View, Text, SectionList } from 'react-native';
-import SessionHeader, { TabKey } from '../components/sessionList/sessionHeader';
-import SectionTitle from '../components/sectionTitle';
-import SessionRow, { Session } from '../components/sessionList/sessionRow';
-import {ms,s} from '../theme/scales';
+import SessionHeader, { TabKey } from './sessionHeader';
+import SectionTitle from './sectionTitle';
+import SessionRow, { Session } from './sessionRow';
+import {ms,s} from '../../theme/scales';
 
 const DATA: Session[] = [
   { id: 's1', title: 'Bead Microscope Part 2', startAt: '2025-09-26T17:00:00Z', status: 'live' },

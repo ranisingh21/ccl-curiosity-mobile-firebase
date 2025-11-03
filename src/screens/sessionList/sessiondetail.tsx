@@ -1,7 +1,7 @@
 // src/layout/sessionDetail.tsx
 import React from 'react';
 import { View, Text, Pressable } from 'react-native';
-import type { Session } from '../components/sessionList/sessionRow';
+import type { Session } from './sessionRow';
 
 export default function SessionDetail({
   session,

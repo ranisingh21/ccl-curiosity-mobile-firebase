@@ -1,6 +1,6 @@
 // src/components/header.styles.ts
 import { StyleSheet } from 'react-native';
-import { factor, ms ,s} from '../theme/scales';
+import { factor, ms ,s} from '../../theme/scales';
 
 export default StyleSheet.create({
   container: {

@@ -1,0 +1,13 @@
+{
+    "plugins": [
+      ["dotenv-import", {
+        "moduleName": "@env",
+        "path": ".env",
+        "blocklist": null,
+        "allowlist": ["SIZE_MATTERS_BASE_WIDTH","SIZE_MATTERS_BASE_HEIGHT"],
+        "safe": true,
+        "allowUndefined": true
+      }]
+    ]
+  }
+       

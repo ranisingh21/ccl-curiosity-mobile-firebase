@@ -67,26 +67,18 @@
 
 // Mahima
 // App.tsx
-// import React from 'react';
-// import { SafeAreaProvider } from 'react-native-safe-area-context';
-// import AppNavigator from './src/screens/navigation';
+import React from 'react';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+import AppNavigator from './src/screens/sessionList/navigation';
 
-// export default function App() {
-//   return (
-//     <SafeAreaProvider>
-//       <AppNavigator />
-//     </SafeAreaProvider>
-//   );
-// }
+export default function App() {
+  return (
+    <SafeAreaProvider>
+      <AppNavigator />
+    </SafeAreaProvider>
+  );
+}
 // 
-// export default function App() {
-  // return (
-    // <SafeAreaProvider>
-      {/* <AppNavigator /> */}
-    {/* </SafeAreaProvider> */}
-  // );
-// }
-
 
 
 
