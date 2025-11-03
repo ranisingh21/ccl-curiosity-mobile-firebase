@@ -1,0 +1,4 @@
+/home/mahima/Desktop/CCL/cclMob/android/app/.cxx/Debug/2m62664u/x86_64/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir
+/home/mahima/Desktop/CCL/cclMob/android/app/.cxx/Debug/2m62664u/x86_64/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir
+/home/mahima/Desktop/CCL/cclMob/android/app/.cxx/Debug/2m62664u/x86_64/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/edit_cache.dir
+/home/mahima/Desktop/CCL/cclMob/android/app/.cxx/Debug/2m62664u/x86_64/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/rebuild_cache.dir
