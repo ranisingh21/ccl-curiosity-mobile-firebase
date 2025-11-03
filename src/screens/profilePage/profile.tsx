@@ -1,9 +1,9 @@
 import React from 'react';
 import { View, Text } from 'react-native';
-import PasswordCard from '../components/profile/passwordCard';
-import PersonCard from '../components/profile/personCard';
-import SectionTitle from '../components/sectionTitle';
-import {factor, ms,s} from '../theme/scales';
+import PasswordCard from './passwordCard';
+import PersonCard from './personCard';
+import SectionTitle from '../sessionList/sectionTitle';
+import {factor, ms,s} from '../../theme/scales';
 
 export default function Profile() {
   return (

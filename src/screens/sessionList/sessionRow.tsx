@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, Pressable } from 'react-native';
-import styles from './sessionRow.styles';
+import styles from '../../styles/sessionList/sessionRow.styles';
 
 export type SessionStatus = 'live' | 'upcoming' | 'ended';
 

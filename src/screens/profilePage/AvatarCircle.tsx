@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text } from 'react-native';
 // import {ms,vs} from '../../theme/scales';
-import styles from './AvatarCircle.styles';
+import styles from '../../styles/profilePage/AvatarCircle.styles';
 
 type Props = {
   initials: string;   // e.g., "AM"

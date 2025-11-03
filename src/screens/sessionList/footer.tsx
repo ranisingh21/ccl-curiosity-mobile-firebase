@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, Pressable, Image } from 'react-native';
-import styles from './footer.styles';
+import styles from '../../styles/sessionList/footer.styles';
 
 export type FooterKey = 'sessions' | 'myKgbv';
 
