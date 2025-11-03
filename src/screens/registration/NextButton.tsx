@@ -67,7 +67,7 @@
 
 import React from "react";
 import { TouchableOpacity, Text, StyleSheet, View, Image } from "react-native";
-import { CustomStyle } from "../styles/CustomStyle";
+import { CustomStyle } from "../../styles/registration/CustomStyle";
 import { scale, verticalScale, moderateScale } from "react-native-size-matters/extend";
 
 interface NextButtonProps {
@@ -80,7 +80,7 @@ const NextButton: React.FC<NextButtonProps> = ({ onPress }) => {
       <View style={styles.textContainer}>
         <Text style={styles.buttonText}>Next</Text>
         <Image
-          source={require("../assets/images/Frame img.png")}
+          source={require("../../assets/Images/Frame img.png")}
           style={styles.arrow}
         />
       </View>

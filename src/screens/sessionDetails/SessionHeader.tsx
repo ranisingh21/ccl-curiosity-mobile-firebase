@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, Pressable, StatusBar, Image } from 'react-native';
-import { styles, COLORS } from '../styles/SessionHeader'; 
+import { styles, COLORS } from '../../styles/sessionDetails/SessionHeader'; 
 
 const SessionHeader: React.FC = () => {
   return (

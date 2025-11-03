@@ -1,9 +1,9 @@
 {
   "buildFiles": [
-    "/home/mahima/Desktop/CCL/cclMob/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/CMakeLists.txt",
-    "/home/mahima/Desktop/CCL/cclMob/node_modules/react-native-safe-area-context/android/src/main/jni/CMakeLists.txt",
-    "/home/mahima/Desktop/CCL/cclMob/node_modules/react-native-screens/android/src/main/jni/CMakeLists.txt",
-    "/home/mahima/Desktop/CCL/cclMob/node_modules/react-native-svg/android/src/main/jni/CMakeLists.txt",
+    "/home/mahima/Desktop/newCCL/ccl-curiosity-mobile-demo/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/CMakeLists.txt",
+    "/home/mahima/Desktop/newCCL/ccl-curiosity-mobile-demo/node_modules/react-native-safe-area-context/android/src/main/jni/CMakeLists.txt",
+    "/home/mahima/Desktop/newCCL/ccl-curiosity-mobile-demo/node_modules/react-native-screens/android/src/main/jni/CMakeLists.txt",
+    "/home/mahima/Desktop/newCCL/ccl-curiosity-mobile-demo/node_modules/react-native-svg/android/src/main/jni/CMakeLists.txt",
     "/home/mahima/Desktop/newCCL/ccl-curiosity-mobile-demo/node_modules/react-native/ReactAndroid/cmake-utils/default-app-setup/CMakeLists.txt"
   ],
   "cleanCommandsComponents": [

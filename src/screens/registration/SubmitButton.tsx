@@ -1,7 +1,7 @@
 import React from "react";
 import { TouchableOpacity, Text, StyleSheet } from "react-native";
 import { scale, moderateScale } from "react-native-size-matters/extend";
-import { CustomStyle } from "../styles/CustomStyle";
+import { CustomStyle } from "../../styles/registration/CustomStyle";
 
 interface SubmitButtonProps {
   onPress?: () => void; 

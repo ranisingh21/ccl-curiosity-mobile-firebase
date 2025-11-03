@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, TouchableOpacity, Image } from 'react-native';
-import createStyles from '../styles/RegisterSuccessScreen';
+import createStyles from '../../styles/registration/RegisterSuccessScreen';
 
 const RegisterSuccessScreen: React.FC = () => {
   const styles = createStyles();
@@ -9,7 +9,7 @@ const RegisterSuccessScreen: React.FC = () => {
     <View style={styles.screenBox}>
         <View style={styles.imageContainer}>
           <Image
-             source={require('../assets/images/image.png')}
+             source={require('../../assets/Images/image.png')}
             style={styles.imageBox}
          />
         </View>

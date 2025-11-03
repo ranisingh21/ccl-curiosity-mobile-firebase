@@ -4,11 +4,11 @@ import { View } from 'react-native';
 import Header from './header';
 import Footer, { FooterKey } from './footer';
 import SessionsScreen from './sessionList';
-import ProfileScreen from '../profilePage/profile';
+import ProfileScreen from '../profilePage/profile'; 
 import SessionDetail from './sessiondetail';
 import type { Session } from './sessionRow';
 import {s} from '../../theme/scales';
-
+  
 export default function Navigation() {
   const [tab, setTab] = useState<FooterKey>('sessions');
   const [open, setOpen] = useState<Session | null>(null);  

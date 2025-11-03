@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, Pressable } from 'react-native';
-import { styles } from '../styles/SessionFooter'; // ✅ same folder → use './styles/...'
+import { styles } from '../../styles/sessionDetails/SessionFooter'; // ✅ same folder → use './styles/...'
 
 const SessionFooter: React.FC = () => {
   return (

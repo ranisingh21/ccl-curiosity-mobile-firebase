@@ -1,13 +1,13 @@
 import React from "react";
 import { View, Text, Image } from "react-native";
-import styles from "../styles/RegSelectSchoolScreen";
+import styles from "../../styles/registration/RegSelectSchoolScreen";
 
 const RegistrationSchoolContent: React.FC = () => {
   return (
     <>
       <View style={styles.imageContainer}>
         <Image
-          source={require("../assets/images/Rectangle.png")}
+          source={require("../../assets/Images/Rectangle.png")}
           style={styles.logo}
           resizeMode="contain"
         />

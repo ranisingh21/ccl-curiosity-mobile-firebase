@@ -1,26 +1,36 @@
 // Shanti 
-// import React from "react";
-// import { NavigationContainer } from "@react-navigation/native";
-// import { createNativeStackNavigator } from "@react-navigation/native-stack";
-// import IntroScreen from "./src/screens/registration/IntroScreen";
-// import WelcomeScreen from "./src/screens/registration/WelcomeScreen";
-// import RegSelectSchoolScreen from "../src/screens/registration/RegSelectSchoolScreen";
-// import RegSuccess from "../src/screens/egistration/RegSuccess";
+import React from "react";
+import { NavigationContainer } from "@react-navigation/native";
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
-// const Stack = createNativeStackNavigator();
+import IntroScreen from "./src/screens/registration/IntroScreen";
+import WelcomeScreen from "./src/screens/registration/WelcomeScreen";
+import RegSelectSchoolScreen from "./src/screens/registration/RegSelectSchoolScreen";
+import RegSuccess from "./src/screens/registration/RegSuccess";
+import Navigation from "./src/screens/sessionList/navigation";
 
-// export default function App() {
-//   return (
-//     <NavigationContainer>
-//       <Stack.Navigator screenOptions={{ headerShown: false }} initialRouteName="IntroScreen">
-//         <Stack.Screen name="IntroScreen" component={IntroScreen} />
-//         <Stack.Screen name="WelcomeScreen" component={WelcomeScreen} />
-//         <Stack.Screen name="RegSelectSchoolScreen" component={RegSelectSchoolScreen} />
-//         <Stack.Screen name="RegSuccess" component={RegSuccess} />
-//       </Stack.Navigator>
-//     </NavigationContainer>
-//   );
-// }
+const Stack = createNativeStackNavigator();
+
+export default function App() {
+  return (
+    <NavigationContainer>
+      <Stack.Navigator
+        screenOptions={{ headerShown: false }}
+        initialRouteName="IntroScreen"
+      >
+        <Stack.Screen name="IntroScreen" component={IntroScreen} />
+        <Stack.Screen name="WelcomeScreen" component={WelcomeScreen} />
+        <Stack.Screen
+          name="RegSelectSchoolScreen"
+          component={RegSelectSchoolScreen}
+        />
+        <Stack.Screen name="RegSuccess" component={RegSuccess} />
+        
+        <Stack.Screen name="MainApp" component={Navigation} />
+      </Stack.Navigator>
+    </NavigationContainer>
+  );
+}
 
 
 
@@ -60,24 +70,19 @@
 // export default App;
 // 
 
-
-
-
-
-
 // Mahima
 // App.tsx
-import React from 'react';
-import { SafeAreaProvider } from 'react-native-safe-area-context';
-import AppNavigator from './src/screens/sessionList/navigation';
+// import React from 'react';
+// import { SafeAreaProvider } from 'react-native-safe-area-context';
+// import AppNavigator from './src/screens/sessionList/navigation';
 
-export default function App() {
-  return (
-    <SafeAreaProvider>
-      <AppNavigator />
-    </SafeAreaProvider>
-  );
-}
+// export default function App() {
+//   return (
+//     <SafeAreaProvider>
+//       <AppNavigator />
+//     </SafeAreaProvider>
+//   );
+// }
 // 
 
 

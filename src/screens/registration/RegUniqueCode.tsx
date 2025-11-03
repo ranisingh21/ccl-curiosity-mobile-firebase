@@ -1,6 +1,6 @@
 import React from "react";
 import { View, Text, Image,TouchableOpacity } from "react-native";
-import styles from "../styles/RegUniqueCode";
+import styles from "../../styles/registration/RegUniqueCode";
 import NextButton from "./NextButton";
 interface RegUniqueCodeProps {
   onNext: () => void;
@@ -14,7 +14,7 @@ const RegUniqueCode: React.FC<RegUniqueCodeProps> = ({ onNext, onBack }) => {
       <View style={styles.headerContainer}>
         <TouchableOpacity onPress={onBack} style={styles.iconWrapper}>
           <Image
-            source={require("../assets/images/Icon.png")}
+            source={require("../../assets/Images/Icon.png")}
             style={styles.iconImage}
             resizeMode="contain"
           />
@@ -26,12 +26,12 @@ const RegUniqueCode: React.FC<RegUniqueCodeProps> = ({ onNext, onBack }) => {
         <View style={styles.bannerBox}>
           <View style={styles.bannerIconBox}>
             <Image
-              source={require("../assets/images/Discussion.png")}
+              source={require("../../assets/Images/Discussion.png")}
             />
           </View>
           <Text style={styles.bannerMessage}>Dont have Unique Code</Text>
           <Image
-            source={require("../assets/images/Frame 3473171.png")}
+            source={require("../../assets/Images/Frame 3473171.png")}
             style={styles.bannerArrowIcon}
           />
         </View>
