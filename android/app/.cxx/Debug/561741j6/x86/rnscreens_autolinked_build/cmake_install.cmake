@@ -1,4 +1,4 @@
-# Install script for directory: /home/mahima/Desktop/CCL/cclMob/node_modules/react-native-screens/android/src/main/jni
+# Install script for directory: /home/mahima/Desktop/newCCL/ccl-curiosity-mobile-demo/node_modules/react-native-screens/android/src/main/jni
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
