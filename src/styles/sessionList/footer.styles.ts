@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-import {ms,s,factor} from '../theme/scales';
+import {ms,s,factor} from '../../theme/scales';
 
 export default StyleSheet.create({
   container: {
