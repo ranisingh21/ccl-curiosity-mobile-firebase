@@ -6,7 +6,7 @@ import styles from '../../styles/registration/WelcomeScreen';
 
 const WelcomeScreen: React.FC = () => {
   const navigation = useNavigation<any>();
-
+  
   return (
     <View style={styles.container}>
       <View style={styles.logoContainer}>

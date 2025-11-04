@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, Pressable, Image } from 'react-native';
 import styles from '../../styles/sessionList/footer.styles';
 
-export type FooterKey = 'sessions' | 'myKgbv';
+export type FooterKey = 'sessions' | 'profile';
 
 type Props = {
   value: FooterKey;
@@ -14,7 +14,7 @@ const icons = {
     inactive: require('../../assets/Images/session1.png'),  // Inactive image for sessions
     active: require('../../assets/Images/Session2.png'),    // Active image for sessions
   },
-  myKgbv: {
+  profile: {
     inactive: require('../../assets/Images/kgbv1.png'),    // Inactive image for KGBV
     active: require('../../assets/Images/kgbv2.png'),      // Active image for KGBV
   },
@@ -46,7 +46,7 @@ export default function Footer({ value, onChange }: Props) {
   return (
     <View style={styles.container} accessibilityRole="tablist">
       {Item('sessions', 'SESSIONS')}
-      {Item('myKgbv', 'MY KGBV')}
+      {Item('profile', 'MY KGBV')}
     </View>
   );
 }

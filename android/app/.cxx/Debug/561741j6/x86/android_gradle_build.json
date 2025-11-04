@@ -31,8 +31,8 @@
         "/home/mahima/Desktop/newCCL/ccl-curiosity-mobile-demo/android/app/build/intermediates/cxx/Debug/561741j6/obj/x86/libreact_codegen_rnscreens.so",
         "/home/mahima/Desktop/newCCL/ccl-curiosity-mobile-demo/android/app/build/intermediates/cxx/Debug/561741j6/obj/x86/libreact_codegen_rnsvg.so",
         "/home/mahima/.gradle/caches/9.0.0/transforms/5fa135f9220cf0ae1e3ee40cd371125b/transformed/fbjni-0.7.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so",
-        "/home/mahima/.gradle/caches/9.0.0/transforms/ea12ac1f332b31fb5e1a55c985795b89/transformed/react-android-0.82.0-debug/prefab/modules/jsi/libs/android.x86/libjsi.so",
-        "/home/mahima/.gradle/caches/9.0.0/transforms/ea12ac1f332b31fb5e1a55c985795b89/transformed/react-android-0.82.0-debug/prefab/modules/reactnative/libs/android.x86/libreactnative.so"
+        "/home/mahima/.gradle/caches/9.0.0/transforms/1e84847373c8b60ddb3f088099977c2a/transformed/react-android-0.82.1-debug/prefab/modules/jsi/libs/android.x86/libjsi.so",
+        "/home/mahima/.gradle/caches/9.0.0/transforms/1e84847373c8b60ddb3f088099977c2a/transformed/react-android-0.82.1-debug/prefab/modules/reactnative/libs/android.x86/libreactnative.so"
       ]
     },
     "react_codegen_rngesturehandler_codegen::@39f233abcd2c728bc6ec": {
@@ -46,8 +46,8 @@
       "artifactName": "react_codegen_rnscreens",
       "output": "/home/mahima/Desktop/newCCL/ccl-curiosity-mobile-demo/android/app/build/intermediates/cxx/Debug/561741j6/obj/x86/libreact_codegen_rnscreens.so",
       "runtimeFiles": [
-        "/home/mahima/.gradle/caches/9.0.0/transforms/ea12ac1f332b31fb5e1a55c985795b89/transformed/react-android-0.82.0-debug/prefab/modules/reactnative/libs/android.x86/libreactnative.so",
-        "/home/mahima/.gradle/caches/9.0.0/transforms/ea12ac1f332b31fb5e1a55c985795b89/transformed/react-android-0.82.0-debug/prefab/modules/jsi/libs/android.x86/libjsi.so",
+        "/home/mahima/.gradle/caches/9.0.0/transforms/1e84847373c8b60ddb3f088099977c2a/transformed/react-android-0.82.1-debug/prefab/modules/reactnative/libs/android.x86/libreactnative.so",
+        "/home/mahima/.gradle/caches/9.0.0/transforms/1e84847373c8b60ddb3f088099977c2a/transformed/react-android-0.82.1-debug/prefab/modules/jsi/libs/android.x86/libjsi.so",
         "/home/mahima/.gradle/caches/9.0.0/transforms/5fa135f9220cf0ae1e3ee40cd371125b/transformed/fbjni-0.7.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so"
       ]
     },
@@ -57,8 +57,8 @@
       "artifactName": "react_codegen_rnsvg",
       "output": "/home/mahima/Desktop/newCCL/ccl-curiosity-mobile-demo/android/app/build/intermediates/cxx/Debug/561741j6/obj/x86/libreact_codegen_rnsvg.so",
       "runtimeFiles": [
-        "/home/mahima/.gradle/caches/9.0.0/transforms/ea12ac1f332b31fb5e1a55c985795b89/transformed/react-android-0.82.0-debug/prefab/modules/reactnative/libs/android.x86/libreactnative.so",
-        "/home/mahima/.gradle/caches/9.0.0/transforms/ea12ac1f332b31fb5e1a55c985795b89/transformed/react-android-0.82.0-debug/prefab/modules/jsi/libs/android.x86/libjsi.so",
+        "/home/mahima/.gradle/caches/9.0.0/transforms/1e84847373c8b60ddb3f088099977c2a/transformed/react-android-0.82.1-debug/prefab/modules/reactnative/libs/android.x86/libreactnative.so",
+        "/home/mahima/.gradle/caches/9.0.0/transforms/1e84847373c8b60ddb3f088099977c2a/transformed/react-android-0.82.1-debug/prefab/modules/jsi/libs/android.x86/libjsi.so",
         "/home/mahima/.gradle/caches/9.0.0/transforms/5fa135f9220cf0ae1e3ee40cd371125b/transformed/fbjni-0.7.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so"
       ]
     },
@@ -69,8 +69,8 @@
       "output": "/home/mahima/Desktop/newCCL/ccl-curiosity-mobile-demo/android/app/build/intermediates/cxx/Debug/561741j6/obj/x86/libreact_codegen_safeareacontext.so",
       "runtimeFiles": [
         "/home/mahima/.gradle/caches/9.0.0/transforms/5fa135f9220cf0ae1e3ee40cd371125b/transformed/fbjni-0.7.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so",
-        "/home/mahima/.gradle/caches/9.0.0/transforms/ea12ac1f332b31fb5e1a55c985795b89/transformed/react-android-0.82.0-debug/prefab/modules/jsi/libs/android.x86/libjsi.so",
-        "/home/mahima/.gradle/caches/9.0.0/transforms/ea12ac1f332b31fb5e1a55c985795b89/transformed/react-android-0.82.0-debug/prefab/modules/reactnative/libs/android.x86/libreactnative.so"
+        "/home/mahima/.gradle/caches/9.0.0/transforms/1e84847373c8b60ddb3f088099977c2a/transformed/react-android-0.82.1-debug/prefab/modules/jsi/libs/android.x86/libjsi.so",
+        "/home/mahima/.gradle/caches/9.0.0/transforms/1e84847373c8b60ddb3f088099977c2a/transformed/react-android-0.82.1-debug/prefab/modules/reactnative/libs/android.x86/libreactnative.so"
       ]
     }
   },
