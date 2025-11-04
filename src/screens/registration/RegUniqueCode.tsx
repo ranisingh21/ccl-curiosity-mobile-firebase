@@ -1,6 +1,6 @@
 import React from "react";
 import { View, Text, Image,TouchableOpacity } from "react-native";
-import styles from "../styles/RegUniqueCode";
+import styles from "../../styles/RegUniqueCode";
 import NextButton from "./NextButton";
 interface RegUniqueCodeProps {
   onNext: () => void;

@@ -2,10 +2,10 @@ import React from 'react';
 import { View, Text, TouchableOpacity } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import LogoBanner from './LogoBanner';
-import styles from '../styles/WelcomeScreen';
+import styles from '../../styles/WelcomeScreen';
 
 const WelcomeScreen: React.FC = () => {
-  const navigation = useNavigation<any>();
+  // const navigation = useNavigation<any>();
 
   return (
     <View style={styles.container}>
@@ -22,7 +22,7 @@ const WelcomeScreen: React.FC = () => {
         <View style={styles.buttonContainer}>
           <TouchableOpacity
             style={styles.registerButton}
-            onPress={() => navigation.navigate('RegSelectSchoolScreen')}
+            // onPress={() => navigation.navigate('RegSelectSchoolScreen')}
           >
             <Text style={styles.registerText}>Register</Text>
           </TouchableOpacity>

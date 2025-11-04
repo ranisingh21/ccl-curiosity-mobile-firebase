@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { View } from "react-native";
-import styles from "../styles/RegSelectSchoolScreen";
+import styles from "../../styles/RegSelectSchoolScreen";
 import RegistrationSchoolContent from "./RgistrationSchoolContent";
 import RegSchoolSelectionCard from "./RegSchoolSelectionCard";
 import RegUniqueCode from "./RegUniqueCode";

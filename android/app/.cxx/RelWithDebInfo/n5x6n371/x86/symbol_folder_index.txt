@@ -1,0 +1,1 @@
+/home/pooja-meena/ccl-curiosity-mobile-demo/android/app/build/intermediates/cxx/RelWithDebInfo/n5x6n371/obj/x86

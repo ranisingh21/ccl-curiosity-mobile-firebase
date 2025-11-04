@@ -1,6 +1,8 @@
     
 import { StyleSheet } from "react-native";
 import { scale, verticalScale, moderateScale } from "react-native-size-matters/extend";
+// import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&display=swap');
+
 import { CustomStyle } from "./CustomStyle"; 
 const styles = StyleSheet.create({
 

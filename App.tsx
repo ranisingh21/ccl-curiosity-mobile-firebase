@@ -1,11 +1,44 @@
+// import React from "react";
+// import { View } from "react-native"; // ✅ you missed this import
+// import RegSuccess from "./src/screens/registration/RegSuccess"; // ✅ your screen
+// import WelcomeScreen from './src/screens/registration/WelcomeScreen'
+// export default function App() {
+//   return (
+//     <View>
+//       {/* <Welco /> */}
+//       <WelcomeScreen />
+//     </View>
+//   );
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Shanti 
 // import React from "react";
 // import { NavigationContainer } from "@react-navigation/native";
 // import { createNativeStackNavigator } from "@react-navigation/native-stack";
 // import IntroScreen from "./src/screens/registration/IntroScreen";
 // import WelcomeScreen from "./src/screens/registration/WelcomeScreen";
-// import RegSelectSchoolScreen from "../src/screens/registration/RegSelectSchoolScreen";
-// import RegSuccess from "../src/screens/egistration/RegSuccess";
+// import RegSelectSchoolScreen from "./src/screens/registration/RegSelectSchoolScreen";
+// import RegSuccess from "./src/screens/registration/RegSuccess";
 
 // const Stack = createNativeStackNavigator();
 
@@ -93,3 +126,80 @@ export default function App() {
 //     </SafeAreaProvider>
 //   );
 // }
+
+
+
+// import React from 'react';
+// import { View, Text, StyleSheet } from 'react-native';
+
+// const App = () => {
+//   return (
+//     <View style={styles.container}>
+//       <Text style={styles.regular}>Hello with Quicksand Regular!</Text>
+//       <Text style={styles.bold}>Hello with Quicksand Bold!</Text>
+//     </View>
+//   );
+// };
+
+// const styles = StyleSheet.create({
+//   container: {
+//     flex: 1,
+//     justifyContent: 'center',
+//     alignItems: 'center',
+//     backgroundColor: '#F5FCFF',
+//   },
+//   regular: {
+//     fontFamily: 'Quicksand',
+//     fontSize: 25,
+//   },
+//   bold: {
+//     // fontFamily: 'Quicksand-Bold',
+//     fontSize: 22,
+//   },
+// });
+
+// export default App;
+
+
+
+
+
+// import React from 'react';
+// import { View, Text, StyleSheet } from 'react-native';
+// import { COLORS } from './src/styles/globalStyles';
+
+// const App = () => (
+//   <View style={styles.container}>
+//     <Text style={styles.text}>This is Quicksand Regular</Text>
+//     <Text style={styles.text}>1 रंगीन प्रिंट – संकेतक pH चार्ट</Text>
+//     <Text style={styles.text}>This is Quicksand text</Text>
+//     <Text style={styles.bold}>1 रंगीन प्रिंट – संकेतक pH चार्ट</Text>
+//     <Text style={styles.text}>Diwali Themed</Text>
+//   </View>
+// );
+
+// const styles = StyleSheet.create({
+//   container: {
+//     flex: 1,
+//     justifyContent: 'center',
+//     alignItems: 'center',
+//   },
+//   text: {
+//     fontFamily: 'Quicksand',
+//     // fontSize: 16,
+
+//      fontSize: 28,
+//         fontWeight: '700',
+//         color: COLORS.text,
+//         marginBottom: (10),
+//         paddingLeft: (10),
+//         // fontFamily: 'Quicksand',
+//         lineHeight: 20,
+//   },
+//   bold: {
+//     fontFamily: 'Quicksand-Bold',
+//     fontSize: 16,
+//   },
+// });
+
+// export default App;
