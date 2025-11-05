@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text } from 'react-native';
-import PasswordCard from '../components/Profile/passwordCard';
-import PersonCard from '../components/Profile/personCard';
+import PasswordCard from '../components/Profile/PasswordCard';
+import PersonCard from '../components/Profile/PersonCard';
 import SectionTitle from '../components/common/SectionTitle';
 import { scale } from 'react-native-size-matters/extend';
 
