@@ -5,14 +5,14 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { getFocusedRouteNameFromRoute } from "@react-navigation/native";
 
-import Header from "../components/sessionList/header";
+import Header from "../components/common/AppHeader";
 import SessionsScreen from "../screens/sessionList";
 import SessionDetail from "../screens/MainSessionDetail";
 import ProfileScreen from "../screens/profile";
-import type { Session } from "../components/sessionList/sessionRow";
+import type { Session } from "../components/sessionList/SessionRow";
 import { s } from "../theme/scales";
 
-import CustomFooterTabBar from "../components/sessionList/CustomFooterBar";
+import CustomFooterTabBar from "../components/common/CustomFooterBar";
 
 type SessionsStackParamList = {
   SessionsList: undefined;

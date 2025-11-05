@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, Pressable, Image } from 'react-native';
-import styles from '../../styles/sessionList/footer.styles';
+import styles from '../../styles/sessionList/app-footer';
 
 export type FooterKey = 'sessions' | 'profile';
 
@@ -26,7 +26,7 @@ export default function Footer({ value, onChange }: Props) {
       <Pressable
         key={key}
         onPress={() => onChange(key)}
-        style={[styles.item, active && styles.itemActive]}
+        style={[styles.item, active && styles.itemactive]}
         accessibilityRole="tab"
         accessibilityState={{ selected: active }}
         hitSlop={8}
@@ -50,3 +50,4 @@ export default function Footer({ value, onChange }: Props) {
     </View>
   );
 }
+ 

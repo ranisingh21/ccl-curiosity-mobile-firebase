@@ -91,9 +91,9 @@
 
 import React, { useMemo, useState } from 'react';
 import { View, Text, SectionList } from 'react-native';
-import SessionHeader, { TabKey } from '../components/sessionList/sessionListHeader';
-import SectionTitle from '../components/sessionList/sectionTitle';
-import SessionRow, { Session } from '../components/sessionList/sessionRow';
+import SessionHeader, { TabKey } from '../components/sessionList/SessionListHeader';
+import SectionTitle from '../components/common/SectionTitle';
+import SessionRow, { Session } from '../components/sessionList/SessionRow';
 import {ms,s} from '../theme/scales';
 
 const DATA: Session[] = [

@@ -17,7 +17,7 @@ export default StyleSheet.create({
     alignItems: 'center',
     paddingVertical:s(10),        
   },
-  itemActive: {
+  itemactive: {
     backgroundColor: '#EAF2F5',             
   }, 
   icon: {  

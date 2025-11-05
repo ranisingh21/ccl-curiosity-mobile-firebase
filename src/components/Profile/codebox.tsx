@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text } from 'react-native';
-import styles from '../../styles/profilePage/codebox.styles';
+import styles from '../../styles/profilePage/code-box';
 
 type Props = {
   value: string;        // characters to render as boxes

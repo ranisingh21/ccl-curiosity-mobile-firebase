@@ -1,7 +1,7 @@
 // src/navigation/CustomFooterTabBar.tsx
 import React from "react";
 import type { BottomTabBarProps } from "@react-navigation/bottom-tabs";
-import Footer, { FooterKey } from "./footer";
+import Footer, { FooterKey } from "./AppFooter";
 
 export default function CustomFooterTabBar({ state, navigation, descriptors }: BottomTabBarProps) {
   // If current screen asked to hide the tab bar, render nothing.

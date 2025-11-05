@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text } from 'react-native';
 import PasswordCard from '../components/Profile/passwordCard';
 import PersonCard from '../components/Profile/personCard';
-import SectionTitle from '../components/sessionList/sectionTitle';
+import SectionTitle from '../components/common/SectionTitle';
 import {factor, ms,s} from '../theme/scales';
 
 export default function Profile() {

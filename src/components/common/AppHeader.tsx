@@ -1,6 +1,6 @@
 import React, {ReactNode} from "react";
 import {View, Text} from 'react-native';
-import styles from '../../styles/sessionList/header.styles';
+import styles from '../../styles/sessionList/app-header';
 
 type Props = {
     title: string;

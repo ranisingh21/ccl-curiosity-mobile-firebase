@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, Pressable } from 'react-native';
-import styles from '../../styles/sessionList/sessionListHeader.styles';
+import styles from '../../styles/sessionList/session-list-header';
 
 export type TabKey = 'active' | 'upcoming' | 'past';
 

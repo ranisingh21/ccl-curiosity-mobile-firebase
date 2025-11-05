@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text } from 'react-native';
-import styles from '../../styles/profilePage/passwordCard.styles';
+import styles from '../../styles/profilePage/password-card';
 import CodeBoxes from './codebox';
 
 type Props = {
