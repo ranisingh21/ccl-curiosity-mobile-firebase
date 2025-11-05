@@ -1,11 +1,11 @@
 import { StyleSheet } from 'react-native';
-import { CustomStyle} from './CustomStyle';
+import { custom} from './custom';
 import {scale, moderateScale } from 'react-native-size-matters/extend';
 
 const createStyles = () =>
   StyleSheet.create({
     screenBox: {
-      backgroundColor: CustomStyle.BLUE,
+      backgroundColor: custom.BLUE,
 
     },
 
@@ -53,7 +53,7 @@ const createStyles = () =>
 
     subLine: {
       marginTop: scale(5),
-      color:CustomStyle.WHITE,
+      color:custom.WHITE,
       fontSize: 15,
       textAlign: 'center',
       fontFamily:"Quicksand",
@@ -69,7 +69,7 @@ const createStyles = () =>
 
     CheckButtonBox: {
       borderRadius: 7,
-      backgroundColor: CustomStyle.WHITE,
+      backgroundColor: custom.WHITE,
       alignItems: 'center',
       justifyContent: 'center',
       paddingTop: scale(15),
@@ -95,7 +95,7 @@ const createStyles = () =>
     },
 
     arrow: {
-      color: CustomStyle.BLUE,
+      color: custom.BLUE,
       width: scale(24),
       height:scale(20),
       justifyContent:"center",

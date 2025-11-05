@@ -1,15 +1,15 @@
 import { View, ScrollView } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { globalStyles } from "../../styles/globalStyles";
-import SessionHeader from "./SessionHeader";
-import SessionFooter from "./SessionFooter";
-import SessionDetailCard from "./SessionDetailCard";
-import JoinSessionDesktop from "./JoinSessionDesktop";
-import JoinSessionMobile from "./JoinSessionMobile";
-import TaskListCard from "./TaskListCard";
+import { globalStyles } from "../styles/globalStyles";
+import SessionHeader from "../components/sessionDetails/SessionHeader";
+import SessionFooter from "../components/sessionDetails/SessionFooter";
+import SessionDetailCard from "../components/sessionDetails/SessionDetailCard";
+import JoinSessionDesktop from "../components/sessionDetails/JoinSessionDesktop";
+import JoinSessionMobile from "../components/sessionDetails/JoinSessionMobile";
+import TaskListCard from "../components/sessionDetails/TaskListCard";
 
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
-import type { Session } from "../sessionList/sessionRow";
+import type { Session } from "../components/sessionList/sessionRow";
 
 type SessionsStackParamList = {
   SessionsList: undefined;

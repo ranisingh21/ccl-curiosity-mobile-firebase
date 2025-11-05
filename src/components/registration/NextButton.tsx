@@ -67,7 +67,7 @@
 
 import React from "react";
 import { TouchableOpacity, Text, StyleSheet, View, Image } from "react-native";
-import { CustomStyle } from "../../styles/registration/CustomStyle";
+import { custom } from "../../styles/registration/custom";
 import { scale, verticalScale, moderateScale } from "react-native-size-matters/extend";
 
 interface NextButtonProps {
@@ -107,7 +107,7 @@ const styles = StyleSheet.create({
     gap: 8,
   },
   buttonText: {
-    color: CustomStyle.WHITE,
+    color: custom.WHITE,
     fontSize: moderateScale(16),
     fontFamily: "Quicksand",
     fontWeight: "600",

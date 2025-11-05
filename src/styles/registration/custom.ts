@@ -1,5 +1,5 @@
 
-export const CustomStyle = {  
+export const custom = {  
   factor:1,
   brand: "#11A1DF",
   brandDark: "#1098d6",

@@ -1,17 +1,17 @@
 import { StyleSheet } from 'react-native';
-import { CustomStyle } from './CustomStyle';
+import { custom } from './custom';
 import { scale, verticalScale,moderateScale} from 'react-native-size-matters/extend';
-console.log(CustomStyle.factor)
+console.log(custom.factor)
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: CustomStyle.primary,
+    backgroundColor: custom.primary,
   },
   
   logoContainer: {
     marginTop: scale(106),
     marginBottom: scale(106),
-    backgroundColor: CustomStyle.primary,
+    backgroundColor: custom.primary,
     alignItems: 'center',
   },
 

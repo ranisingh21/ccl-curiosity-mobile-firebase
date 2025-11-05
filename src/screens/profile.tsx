@@ -1,9 +1,9 @@
 import React from 'react';
 import { View, Text } from 'react-native';
-import PasswordCard from './passwordCard';
-import PersonCard from './personCard';
-import SectionTitle from '../sessionList/sectionTitle';
-import {factor, ms,s} from '../../theme/scales';
+import PasswordCard from '../components/Profile/passwordCard';
+import PersonCard from '../components/Profile/personCard';
+import SectionTitle from '../components/sessionList/sectionTitle';
+import {factor, ms,s} from '../theme/scales';
 
 export default function Profile() {
   return (
@@ -18,7 +18,7 @@ export default function Profile() {
 
     <Text style={{ color: '#2B353A',
       fontFamily: 'Quicksand',
-      fontSize: 14,
+      fontSize: 14, 
       fontWeight: '500',
       lineHeight: 19.6,
       marginLeft:s(20),

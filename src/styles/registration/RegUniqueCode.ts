@@ -1,10 +1,10 @@
 import { StyleSheet } from "react-native";
-import { CustomStyle} from "./CustomStyle";
+import { custom} from "./custom";
 import { scale} from "react-native-size-matters/extend";
 
 export default StyleSheet.create({
   card: {
-    backgroundColor: CustomStyle.WHITE,
+    backgroundColor: custom.WHITE,
     borderTopLeftRadius: 20,
     borderTopRightRadius: 20,
     paddingHorizontal: scale(20),
@@ -36,7 +36,7 @@ export default StyleSheet.create({
     fontSize: 28,
     fontWeight: "700",
     textAlign: "center",
-    color: CustomStyle. titlecolor,
+    color: custom. titlecolor,
     lineHeight: 33.6,
   },
 
@@ -68,7 +68,7 @@ export default StyleSheet.create({
   },
 
   bannerMessage: {
-    color: CustomStyle. textfontcolor,
+    color: custom. textfontcolor,
     fontSize: 14,
     fontStyle: "normal",
     fontWeight: "700",

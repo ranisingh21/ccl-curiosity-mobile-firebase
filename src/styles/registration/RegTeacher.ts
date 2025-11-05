@@ -1,10 +1,10 @@
 import { StyleSheet } from "react-native";
-import { CustomStyle } from "./CustomStyle";
+import { custom } from "./custom";
 import { scale} from "react-native-size-matters/extend";
 
 export default StyleSheet.create({
   card: {
-    backgroundColor: CustomStyle.WHITE,
+    backgroundColor: custom.WHITE,
     borderTopLeftRadius: 20,
     borderTopRightRadius: 20,
     paddingHorizontal: scale(20),
@@ -38,7 +38,7 @@ export default StyleSheet.create({
     fontStyle:"normal",
     fontWeight: "700",
     textAlign: "center",
-    color:  CustomStyle.titlecolor,
+    color:  custom.titlecolor,
     lineHeight: 33.6,
   },
 
@@ -51,7 +51,7 @@ export default StyleSheet.create({
     fontSize: 16,
     fontFamily: "Quicksand",
     fontWeight: "700",
-    color:  CustomStyle.titlecolor,
+    color:  custom.titlecolor,
     paddingHorizontal: scale(10),
     lineHeight: 22.4,
 
@@ -66,7 +66,7 @@ export default StyleSheet.create({
     paddingHorizontal: scale(12),
     paddingTop: scale(12),
     paddingBottom: scale(14),
-    color:CustomStyle.textfontcolor,
+    color:custom.textfontcolor,
   },
 
    fieldBox2: {
@@ -79,14 +79,14 @@ export default StyleSheet.create({
     paddingHorizontal: scale(12),
     paddingTop: scale(12),
     paddingBottom: scale(14),
-    color: CustomStyle.textfontcolor,
+    color: custom.textfontcolor,
   },
   fieldValue: {
     fontSize: 16,
     fontFamily: "Quicksand",
     fontStyle:"normal",
     fontWeight: "600",
-    color: CustomStyle.titlecolor,
+    color: custom.titlecolor,
     lineHeight: 22.4,
   },
   
@@ -95,7 +95,7 @@ export default StyleSheet.create({
     fontSize:14,
     fontStyle:"normal",
     fontWeight:"500",
-    color: CustomStyle.textfontcolor,
+    color: custom.textfontcolor,
     paddingLeft:scale(8),
     lineHeight:19.6,
     marginBottom: scale(32),
@@ -118,7 +118,7 @@ export default StyleSheet.create({
   },
 
   textLink: {
-  color:  CustomStyle.titlecolor,
+  color:  custom.titlecolor,
   fontFamily: "Quicksand",
   fontSize: 14,
   fontStyle: "normal",
@@ -128,7 +128,7 @@ export default StyleSheet.create({
 },
 
  textLink2: {
-  color: CustomStyle.textfontcolor,
+  color: custom.textfontcolor,
   fontFamily: "Quicksand",
   fontSize: 14,
   fontStyle: "normal",

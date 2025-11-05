@@ -1,10 +1,10 @@
 import { StyleSheet } from "react-native";
-import { CustomStyle} from "./CustomStyle";
+import { custom} from "./custom";
 import { scale} from "react-native-size-matters/extend";
 export default StyleSheet.create({
 
   mainContainer: {
-    backgroundColor: CustomStyle.primary,
+    backgroundColor: custom.primary,
     justifyContent: "center",
     paddingTop: scale(64),
     

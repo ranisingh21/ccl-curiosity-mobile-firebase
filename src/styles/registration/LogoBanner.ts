@@ -1,7 +1,7 @@
     
 import { StyleSheet } from "react-native";
 import { scale, verticalScale, moderateScale } from "react-native-size-matters/extend";
-import { CustomStyle } from "./CustomStyle"; 
+import { custom } from "./custom"; 
 const styles = StyleSheet.create({
 
   containerBox: {

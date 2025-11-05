@@ -1,7 +1,7 @@
 import React from "react";
 import { TouchableOpacity, Text, StyleSheet } from "react-native";
 import { scale, moderateScale } from "react-native-size-matters/extend";
-import { CustomStyle } from "../../styles/registration/CustomStyle";
+import { custom } from "../../styles/registration/custom";
 
 interface SubmitButtonProps {
   onPress?: () => void; 
@@ -17,7 +17,7 @@ const SubmitButton: React.FC<SubmitButtonProps> = ({ onPress }) => {
 
 const styles = StyleSheet.create({
   button: {
-    backgroundColor: CustomStyle.primary,
+    backgroundColor: custom.primary,
     width: scale(292),
     aspectRatio: 292 / 56,
     borderRadius: 8,

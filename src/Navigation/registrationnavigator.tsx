@@ -2,10 +2,10 @@ import React from "react";
   import { NavigationContainer, useFocusEffect } from "@react-navigation/native";
   import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
-  import IntroScreen from "../screens/registration/IntroScreen";
-  import WelcomeScreen from "../screens/registration/WelcomeScreen";
-  import RegSelectSchoolScreen from "../screens/registration/RegSelectSchoolScreen";
-  import RegSuccess from "../screens/registration/RegSuccess";
+  import IntroScreen from "../components/registration/IntroScreen";
+  import WelcomeScreen from "../components/registration/WelcomeScreen";
+  import RegSelectSchoolScreen from "../screens/RegSelectSchoolScreen";
+  import RegSuccess from "../components/registration/RegSuccess";
 
   const Stack = createNativeStackNavigator();
 

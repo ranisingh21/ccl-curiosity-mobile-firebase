@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { View } from "react-native";
-import styles from "../../styles/registration/RegSelectSchoolScreen";
-import RegistrationSchoolContent from "./RgistrationSchoolContent";
-import RegSchoolSelectionCard from "./RegSchoolSelectionCard";
-import RegUniqueCode from "./RegUniqueCode";
-import RegTeacher from "./RegTeacher";
+import styles from "../styles/registration/RegSelectSchoolScreen";
+import RegistrationSchoolContent from "../components/registration/RgistrationSchoolContent";
+import RegSchoolSelectionCard from "../components/registration/RegSchoolSelectionCard";
+import RegUniqueCode from "../components/registration/RegUniqueCode";
+import RegTeacher from "../components/registration/RegTeacher";
 
 const RegSelectSchoolScreen: React.FC = () => {
   const [step, setStep] = useState(1);
