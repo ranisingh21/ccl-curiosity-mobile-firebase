@@ -7,16 +7,17 @@ export default StyleSheet.create({
     width: '100%' as const,    
     height:'13%' as const,           // avoids "string not assignable to number"
     backgroundColor: 'rgba(203,218,224,0.6)',
-    paddingHorizontal: s(16),
-    paddingTop: s(70),
+    paddingHorizontal: s(24),
+    paddingTop: s(74),
     // opacity:0.6,
   },  
   title: {
     color: '#2B353A',            // CSS variable fallback used
-    fontFamily: 'Quicksand',
+    fontFamily: 'Quicksand-Regular',
     fontSize: 24,
     fontStyle: 'normal',         // Optional, can be omitted as it's default
-    fontWeight: '500',
+    // fontWeight: '500',
     lineHeight: 28.8,
+    // paddingBottom: s(10)
   },
 });

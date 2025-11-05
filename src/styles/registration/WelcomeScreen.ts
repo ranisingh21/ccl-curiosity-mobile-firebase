@@ -1,18 +1,17 @@
 import { StyleSheet } from 'react-native';
-import { CustomStyle } from "../../styles/CustomStyle"; 
+import { custom } from './custom';
 import { scale, verticalScale,moderateScale} from 'react-native-size-matters/extend';
-console.log(CustomStyle.factor)
-
+console.log(custom.factor)
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: CustomStyle.primary,
+    backgroundColor: custom.primary,
   },
   
   logoContainer: {
     marginTop: scale(106),
     marginBottom: scale(106),
-    backgroundColor: CustomStyle.primary,
+    backgroundColor: custom.primary,
     alignItems: 'center',
   },
 
@@ -27,27 +26,16 @@ const styles = StyleSheet.create({
     marginTop: scale(104),
   },
 
-  // programTitle: {
-  //   fontSize: 28,
-  //   // fontWeight: '700',
-  //   color: '#2B353A',
-  //   lineHeight: 33.6,
-  //   fontFamily: 'Quacksand-bold',
-  //   textAlign: 'center',
-  //   // fontStyle: 'normal',
-  // },
-
-
   programTitle: {
-    fontSize: moderateScale(28,CustomStyle.factor),
-    // fontWeight: '700',
-    // color: '#2B353A',
-    lineHeight: scale(33.6),
-    fontFamily: 'Quicksand',
+    fontSize: 28,
+    fontWeight: '700',
+    color: '#2B353A',
+    lineHeight: 33.6,
+    fontFamily: 'Tangerine',
     textAlign: 'center',
-    color:'red',
+    fontStyle: 'normal',
+  },
 
-  }, 
   programSubtitle: {
     fontSize: 16,
     color: '#2B353A',

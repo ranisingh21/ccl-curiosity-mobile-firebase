@@ -1,11 +1,10 @@
 import { StyleSheet } from "react-native";
-import { CustomStyle } from "../../styles/CustomStyle"; 
-
+import {custom} from "./custom";
 import { scale} from "react-native-size-matters/extend";
 
 export default StyleSheet.create({
   card: {
-    backgroundColor: CustomStyle.WHITE,
+    backgroundColor: custom.WHITE,
     borderTopLeftRadius: 20,
     borderTopRightRadius: 20,
     paddingHorizontal: scale(20),
@@ -36,7 +35,7 @@ export default StyleSheet.create({
     fontSize: 28,
     fontWeight: "700",
     textAlign: "center",
-    color: CustomStyle.titlecolor,
+    color: custom.titlecolor,
     lineHeight: 33.6,
   },
 
@@ -83,7 +82,7 @@ export default StyleSheet.create({
     fontSize: 14,
     fontFamily: "Noto Sans Devanagari",
     fontWeight: "bold",
-    color: CustomStyle.textfontcolor,
+    color: custom.textfontcolor,
     lineHeight: 19.6,
   },
 
@@ -100,7 +99,7 @@ export default StyleSheet.create({
     fontSize: 14,
     fontFamily: "Noto Sans Devanagari",
     fontWeight: "bold",
-    color: CustomStyle.textfontcolor,
+    color: custom.textfontcolor,
     lineHeight: 19.6,
   },
 
@@ -120,7 +119,7 @@ export default StyleSheet.create({
     fontSize: 16,
     fontFamily: "Quicksand",
     fontWeight: "700",
-    color: CustomStyle.titlecolor,
+    color: custom.titlecolor,
     paddingHorizontal: scale(10),
     fontStyle:"normal",
     lineHeight: 22.4,
@@ -131,7 +130,7 @@ export default StyleSheet.create({
     fontFamily: "Quicksand",
     fontWeight: "500",
     fontStyle:"normal",
-    color: CustomStyle.titlecolor,
+    color: custom.titlecolor,
     lineHeight: 22.4,
   },
 

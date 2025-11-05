@@ -9,3 +9,4 @@ ios/build/
 *.apk
 *.aab
 local.properties
+android/app/.cxx

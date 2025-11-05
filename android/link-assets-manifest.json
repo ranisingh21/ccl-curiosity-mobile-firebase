@@ -2,6 +2,7 @@
   "migIndex": 1,
   "data": [
     {
+<<<<<<< HEAD
       "path": "src/assets/fonts/NotoSansDevanagari-Black.ttf",
       "sha1": "6245a10fd13003b53cf219dfeae37aa9c6d36466"
     },
@@ -164,6 +165,22 @@
     {
       "path": "src/assets/fonts/Quicksand-SemiBold.ttf",
       "sha1": "339f8d3e09ad271ff12727eef33a99f7a066eee3"
+=======
+      "path": "assets/fonts/Quicksand-Bold.ttf",
+      "sha1": "660a1c413ae564641cb326310831f3e721620b24"
+    },
+    {
+      "path": "assets/fonts/Quicksand-Medium.ttf",
+      "sha1": "3e3c94145e55f7ce42e6bde095f731fc706a2b48"
+    },
+    {
+      "path": "assets/fonts/Quicksand-Regular.ttf",
+      "sha1": "a6ff74088fa78a93dfa20053b46afdee8f9e8eb8"
+    },
+    {
+      "path": "assets/fonts/Quicksand-SemiBold.ttf",
+      "sha1": "103f727a8315721c92e5f312070f7ea031bf0159"
+>>>>>>> session-List
     }
   ]
 }
