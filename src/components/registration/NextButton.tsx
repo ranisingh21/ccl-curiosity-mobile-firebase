@@ -109,7 +109,7 @@ const styles = StyleSheet.create({
   buttonText: {
     color: custom.WHITE,
     fontSize: moderateScale(16),
-    fontFamily: "Quicksand",
+    fontFamily: "Quicksand-SemiBold",
     fontWeight: "600",
   },
   arrow: {

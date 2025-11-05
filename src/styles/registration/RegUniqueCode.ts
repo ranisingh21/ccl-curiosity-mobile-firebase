@@ -34,7 +34,7 @@ export default StyleSheet.create({
 
   headerTitle: {
     fontSize: 28,
-    fontWeight: "700",
+    fontFamily:"Quicksand-Bold",
     textAlign: "center",
     color: custom. titlecolor,
     lineHeight: 33.6,
@@ -68,11 +68,9 @@ export default StyleSheet.create({
   },
 
   bannerMessage: {
-    color: custom. textfontcolor,
+    color: "#485860",
     fontSize: 14,
-    fontStyle: "normal",
-    fontWeight: "700",
-    fontFamily: "Noto Sans Devanagari",
+    fontFamily: "Quicksand-Bold",
     lineHeight: 19.6,
     textAlign: "center",
   },
@@ -88,12 +86,10 @@ export default StyleSheet.create({
 
   inputLabel: {
     marginTop: scale(50),
-    fontWeight: "700",
     marginLeft: scale(10),
     fontSize: 16,
-    fontStyle: "normal",
     lineHeight: 19.2,
-    fontFamily: "Quicksand",
+    fontFamily: "Quicksand-Bold",
   },
 
   otpContainer: {
@@ -107,11 +103,11 @@ export default StyleSheet.create({
   otpInputBox: {
     width: scale(37),
     aspectRatio:37/55,
-    borderWidth: 1,
-    borderColor: "gray",
     borderRadius: 8,
     alignItems: "center",
     justifyContent: "center",
+    borderColor:"#485860",
+    borderWidth:1,
   },
 
   nextButtonWrapper: {

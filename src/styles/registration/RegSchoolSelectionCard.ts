@@ -33,9 +33,9 @@ export default StyleSheet.create({
 
   headerTitle: {
     fontSize: 28,
-    fontWeight: "700",
     textAlign: "center",
     color: custom.titlecolor,
+    fontFamily:"Quacksand-Bold",
     lineHeight: 33.6,
   },
 
@@ -80,8 +80,7 @@ export default StyleSheet.create({
 
   bannerTextTop: {
     fontSize: 14,
-    fontFamily: "NotoSansDevanagari",
-    fontWeight: "bold",
+    fontFamily: "NotoSansDevanagari-SemiBold",
     color: custom.textfontcolor,
     lineHeight: 19.6,
   },
@@ -92,20 +91,17 @@ export default StyleSheet.create({
 
    bannerRowBottomBox: {
     flexDirection: "row",
-    gap: 10,
+    gap: 8,
   },
 
   bannerTextBottom: {
     fontSize: 14,
-    fontFamily: "NotoSansDevanagari",
-    fontWeight: "bold",
+    fontFamily: "NotoSansDevanagari-SemiBold",
     color: custom.textfontcolor,
     lineHeight: 19.6,
   },
 
   bannerArrowWrapper: {
-    alignItems: "center",
-    justifyContent: "center",
     width: scale(22),
     aspectRatio: 1,
   },
@@ -117,20 +113,16 @@ export default StyleSheet.create({
 
   fieldLabel: {
     fontSize: 16,
-    fontFamily: "Quicksand",
-    fontWeight: "700",
+    fontFamily: "Quicksand-Bold",
     color: custom.titlecolor,
     paddingHorizontal: scale(10),
-    fontStyle:"normal",
     lineHeight: 22.4,
   },
 
   fieldValue: {
     fontSize: 16,
-    fontFamily: "Quicksand",
-    fontWeight: "500",
-    fontStyle:"normal",
-    color: custom.titlecolor,
+    fontFamily: "Quicksand-Medium",
+    color: "#485860",
     lineHeight: 22.4,
   },
 

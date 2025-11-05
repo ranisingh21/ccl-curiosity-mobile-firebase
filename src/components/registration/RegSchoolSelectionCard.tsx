@@ -5,13 +5,15 @@ import NextButton from "./NextButton";
 
 interface RegSchoolSelectionCardProps {
   onNext: () => void;
+  onBack: () => void;
 }
-const RegSchoolSelectionCard: React.FC<RegSchoolSelectionCardProps> = ({ onNext})=> {
+const RegSchoolSelectionCard: React.FC<RegSchoolSelectionCardProps> = ({ onNext,  onBack})=> {
   return (
     <View style={styles.card}>
 
       <View style={styles.headerBox}>
-        <TouchableOpacity style={styles.headerIconWrapper}>
+        <TouchableOpacity  onPress={onBack} style={styles.headerIconWrapper}
+        >
           <Image
             source={require("../../assets/Images/Icon.png")}
             style={styles.headerIcon}
@@ -37,13 +39,13 @@ const RegSchoolSelectionCard: React.FC<RegSchoolSelectionCardProps> = ({ onNext}
 					<Text style={styles.bannerTextTop}>अगर प्रदेश, जिला या स्कूल का नाम लिस्ट </Text>
 					<View style={styles.bannerRowBottomBox}>
 					<Text style={styles.bannerTextBottom}>में नहीं है</Text>
-					{/* <View style={styles.bannerArrowWrapper}>
+					<View style={styles.bannerArrowWrapper}>
 						<Image
-						source={require("../../assets/Images/logo.png")}
+						source={require("../../assets/Images/thanksarrow.png")}
 						style={styles.bannerArrow}
 						resizeMode="cover"
 						/>
-					</View> */}
+					</View>
 					</View>
 				</View>
 			</View>

@@ -79,7 +79,7 @@ brandBottom: {
   textAlign: "center",
   fontSize: 16,
   lineHeight: 22.4,
-  fontFamily: "Quicksand-Regular",
+  fontFamily: "Quicksand-Medium",
   fontStyle:"normal"
 },
 });
