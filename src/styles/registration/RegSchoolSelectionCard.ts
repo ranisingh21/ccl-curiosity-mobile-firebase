@@ -80,7 +80,7 @@ export default StyleSheet.create({
 
   bannerTextTop: {
     fontSize: 14,
-    fontFamily: "Noto Sans Devanagari",
+    fontFamily: "NotoSansDevanagari",
     fontWeight: "bold",
     color: custom.textfontcolor,
     lineHeight: 19.6,
@@ -97,7 +97,7 @@ export default StyleSheet.create({
 
   bannerTextBottom: {
     fontSize: 14,
-    fontFamily: "Noto Sans Devanagari",
+    fontFamily: "NotoSansDevanagari",
     fontWeight: "bold",
     color: custom.textfontcolor,
     lineHeight: 19.6,

@@ -18,6 +18,7 @@ const SessionHeader: React.FC = () => {
         <Image
           source={require('../../assets/Images/sesion-page-header-arrow.png')}
           style={styles.backArrowImage}
+          
           resizeMode="contain"
         />
       </Pressable>{' '}
