@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, Image } from 'react-native';
-import { styles } from '../../styles/sessionDetails/SessionDetailCard';
+import { styles } from '../../styles/sessionDetails/session-detail-card';
 
 export default function SessionDetailCard() {
   const Card: React.FC<{ children: React.ReactNode }> = ({ children }) => (

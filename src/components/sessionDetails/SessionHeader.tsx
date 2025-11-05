@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, Pressable, StatusBar, Image } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
-import { styles, COLORS } from '../../styles/sessionDetails/SessionHeader'; 
+import { styles, COLORS } from '../../styles/sessionDetails/session-header'; 
 
 const SessionHeader: React.FC = () => {
   const navigation = useNavigation(); // 👈 grab navigation

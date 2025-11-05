@@ -1,5 +1,6 @@
 import { StyleSheet } from 'react-native';
-import {ms,s, factor} from '../../theme/scales';
+import { scale } from 'react-native-size-matters/extend';
+
 
 
 export default StyleSheet.create({
@@ -8,9 +9,9 @@ export default StyleSheet.create({
     alignItems: 'center',
   },
   box: { 
-    width: s(40),
-    height: s(56),
-    borderRadius: s(8),
+    width: scale(40),
+    height: scale(56),
+    borderRadius: scale(8),
     borderWidth: 1,                
     borderColor: 'rgba(19,109,151,0.6)',
     // opacity: 0.6,
@@ -19,7 +20,7 @@ export default StyleSheet.create({
     justifyContent: 'center',
   },
   boxGap: {
-    marginRight:s(4),
+    marginRight:scale(4),
   },
   digit: {
     fontSize:20,

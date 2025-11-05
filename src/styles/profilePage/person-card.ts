@@ -1,24 +1,25 @@
 import { StyleSheet } from 'react-native';
-import{ms,s,factor} from '../../theme/scales';
+import { scale } from 'react-native-size-matters/extend';
+
 
 export default StyleSheet.create({
   card: {
     flexDirection: 'row', 
-    marginTop:s(12),           
-    height: s(111),
-    paddingTop: s(26),
-    paddingRight: s(75),
-    paddingBottom: s(25),
-    paddingLeft: s(20),
+    marginTop:scale(12),           
+    height: scale(111),
+    paddingTop: scale(26),
+    paddingRight: scale(75),
+    paddingBottom: scale(25),
+    paddingLeft: scale(20),
     alignItems: 'center',
     alignSelf: 'stretch',
-    borderRadius: s(20),
-    borderWidth: s(1),                  
+    borderRadius: scale(20),
+    borderWidth: scale(1),                  
     borderColor: '#F6F6F6',          
     backgroundColor: '#F6F6F6'                 
   },
   left: {
-    marginRight: s(12),             
+    marginRight: scale(12),             
   },
   right: {
     flex: 1,
@@ -30,7 +31,7 @@ export default StyleSheet.create({
     fontStyle: 'normal',            
     fontWeight: '500',
     lineHeight: 14.4,               
-    letterSpacing: s(0.5),
+    letterSpacing: scale(0.5),
     textTransform: 'uppercase',
   },
   name: {

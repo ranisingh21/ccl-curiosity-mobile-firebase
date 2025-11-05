@@ -1,17 +1,18 @@
 import { StyleSheet } from 'react-native';
-import {factor, ms,s} from '../../theme/scales';
+import { scale } from 'react-native-size-matters/extend';
+
 
 export default StyleSheet.create({
   card: {
     backgroundColor: '#F6F6F6',     
-    borderRadius: s(20),       
-    paddingTop: s(22.5), 
-    paddingBottom:s(22.5),
-    paddingLeft:s(51),
-    paddingRight:s(51), 
-    marginTop:s(16),
-    marginLeft:s(20),
-    marginRight:s(20),  
+    borderRadius: scale(20),       
+    paddingTop: scale(22.5), 
+    paddingBottom:scale(22.5),
+    paddingLeft:scale(51),
+    paddingRight:scale(51), 
+    marginTop:scale(16),
+    marginLeft:scale(20),
+    marginRight:scale(20),  
   },      
   school: {
     color: '#2B353A',
@@ -30,7 +31,7 @@ export default StyleSheet.create({
   lineHeight: 19.6,
   },
   codeWrap: {
-    marginTop: s(16),
+    marginTop: scale(16),
     alignItems: 'center',
   },
   caption: {
@@ -38,7 +39,7 @@ export default StyleSheet.create({
     color: '#2B353A',
     fontFamily: 'Quicksand-SemiBold',
     fontSize: 16,
-    paddingTop:s(6),
+    paddingTop:scale(6),
     // fontWeight: '600',
     lineHeight: 22.4,
   },

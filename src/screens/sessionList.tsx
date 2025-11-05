@@ -94,7 +94,7 @@ import { View, Text, SectionList } from 'react-native';
 import SessionHeader, { TabKey } from '../components/sessionList/SessionListHeader';
 import SectionTitle from '../components/common/SectionTitle';
 import SessionRow, { Session } from '../components/sessionList/SessionRow';
-import {ms,s} from '../theme/scales';
+import { scale } from 'react-native-size-matters/extend';
 
 const DATA: Session[] = [
   { id: 's1', title: 'Bead Microscope Part 2', startAt: '2025-09-26T17:00:00Z', status: 'live' },
@@ -130,9 +130,9 @@ export default function SessionsScreen({onOpenSession}:Props) {
   }, [tab]);
 
   return (
-    <View style={{ flex: 1, backgroundColor:'FFFFFF', paddingHorizontal: s(16) }}>
+    <View style={{ flex: 1, backgroundColor:'FFFFFF', paddingHorizontal: scale(16) }}>
       {/* tabs */}
-      <View style={{ marginTop: s(12), marginBottom: s(8) }}>
+      <View style={{ marginTop: scale(12), marginBottom: scale(8) }}>
         <SessionHeader value={tab} onChange={setTab} />
       </View>
 
@@ -141,13 +141,13 @@ export default function SessionsScreen({onOpenSession}:Props) {
         sections={sections}
         keyExtractor={(item) => item.id}
         renderSectionHeader={({ section }) => (
-          <View style={{ marginTop: s(40) }}>
+          <View style={{ marginTop: scale(40) }}>
             <SectionTitle title={section.title} />
           </View>
         )}
         renderItem={({ item }) => <SessionRow session={item} onPress={(id) => onOpenSession(item)} />}
-        contentContainerStyle={{ paddingBottom: s(24) }}
-        ListEmptyComponent={<Text style={{ textAlign: 'center', color: '#6B7280', marginTop: s(24) }}>No items</Text>}
+        contentContainerStyle={{ paddingBottom: scale(24) }}
+        ListEmptyComponent={<Text style={{ textAlign: 'center', color: '#6B7280', marginTop: scale(24) }}>No items</Text>}
         stickySectionHeadersEnabled={false}
       />
     </View>

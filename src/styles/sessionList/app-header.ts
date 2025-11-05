@@ -1,14 +1,14 @@
 // src/components/header.styles.ts
 import { StyleSheet } from 'react-native';
-import { factor, ms ,s} from '../../theme/scales';
+import { scale } from 'react-native-size-matters/extend';
 
 export default StyleSheet.create({
   container: {
     width: '100%' as const,    
-    height:s(119),           // avoids "string not assignable to number"
+    height:scale(119),           // avoids "string not assignable to number"
     backgroundColor: 'rgba(203,218,224,0.6)',
-    paddingHorizontal: s(24),
-    paddingTop: s(72),
+    paddingHorizontal: scale(24),
+    paddingTop: scale(72),
     // opacity:0.6,
   },  
   title: {

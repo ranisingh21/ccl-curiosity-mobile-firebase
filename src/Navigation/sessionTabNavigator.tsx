@@ -10,7 +10,7 @@ import SessionsScreen from "../screens/sessionList";
 import SessionDetail from "../screens/MainSessionDetail";
 import ProfileScreen from "../screens/profile";
 import type { Session } from "../components/sessionList/SessionRow";
-import { s } from "../theme/scales";
+import { scale } from 'react-native-size-matters/extend';
 
 import CustomFooterTabBar from "../components/common/CustomFooterBar";
 
@@ -33,7 +33,7 @@ function SessionsListWithHeader({ navigation }: any) {
   return (
     <View style={{ flex: 1, backgroundColor: "#FFFFFF" }}>
       <Header title="Session List" />
-      <View style={{ flex: 1, paddingHorizontal: s(16) }}>
+      <View style={{ flex: 1, paddingHorizontal: scale(16) }}>
         <SessionsScreen
           onOpenSession={(session: Session) =>
             navigation.navigate("SessionDetail", { session })
@@ -48,7 +48,7 @@ function ProfileWithHeader() {
   return (
     <View style={{ flex: 1, backgroundColor: "#FFFFFF" }}>
       <Header title="My KGBV Profile" />
-      <View style={{ flex: 1, paddingHorizontal: s(16) }}>
+      <View style={{ flex: 1, paddingHorizontal: scale(16) }}>
         <ProfileScreen />
       </View>
     </View>

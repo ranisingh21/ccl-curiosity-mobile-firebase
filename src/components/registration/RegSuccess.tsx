@@ -54,7 +54,7 @@
 
 import React from 'react';
 import { View, Text, TouchableOpacity, Image } from 'react-native';
-import styles from '../../styles/registration/RegSuccess';
+import styles from '../../styles/registration/reg-success';
 import { useNavigation } from "@react-navigation/native";
 
 const RegSuccess: React.FC = () => {

@@ -1,8 +1,5 @@
 import { StyleSheet } from 'react-native';
-import {
-  scale as s,
-  moderateScale as ms,
-} from 'react-native-size-matters/extend';
+import { scale } from 'react-native-size-matters/extend';
 import { globalStyles, factor } from '../globalStyles';
 
 
@@ -15,12 +12,12 @@ export const styles = StyleSheet.create({
   },
 
   taskRowBox: {
-    paddingLeft: s(4),
+    paddingLeft: scale(4),
   },
   taskText: {
     fontSize:17,
     color: '#232426',
-    marginBottom: s(12),
+    marginBottom: scale(12),
     fontFamily: 'Quicksand',
     fontWeight: '600',
     lineHeight: 22.4,
@@ -30,9 +27,9 @@ export const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     borderBottomColor: '#00000020',
-    paddingVertical: s(8),
+    paddingVertical: scale(8),
     color: '#232426',
-    marginHorizontal: s(5),
+    marginHorizontal: scale(5),
   },
 
   taskLabel: {
@@ -45,21 +42,21 @@ export const styles = StyleSheet.create({
 
   ctaCircle: {
     marginLeft: 'auto',
-    width: s(47),
-    height: s(37),
-    borderRadius: s(60),
+    width: scale(47),
+    height: scale(37),
+    borderRadius: scale(60),
     backgroundColor: '#189BD7',
     alignItems: 'center',
     justifyContent: 'center',
     textAlign: 'center',
-    marginVertical: s(6),
+    marginVertical: scale(6),
   },
 
   ctaArrow: {
     color: '#fff',
     fontSize: 20,
     fontWeight: '700',
-    paddingBottom: s(17),
+    paddingBottom: scale(17),
   },
 
   divider: {
@@ -67,6 +64,6 @@ export const styles = StyleSheet.create({
     backgroundColor: '#D8DEE4',
   },
   taskCardBox: {
-    marginBottom: s(33),
+    marginBottom: scale(33),
   },
 });

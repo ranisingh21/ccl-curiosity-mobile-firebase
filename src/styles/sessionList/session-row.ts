@@ -1,28 +1,28 @@
 import { StyleSheet } from 'react-native';
-import {ms,s,factor} from '../../theme/scales';
+import { scale } from 'react-native-size-matters/extend';
 
 export default StyleSheet.create({
   card: {
     flexDirection: 'row',
     alignItems: 'center',
     backgroundColor: '#F6F6F6',     
-    padding: s(14),
-    marginTop: s(12),
+    padding: scale(14),
+    marginTop: scale(12),
     width: '100%',                    
-    height: s(84),                  
+    height: scale(84),                  
     flexShrink: 0,                 
-    borderRadius: s(8),                
+    borderRadius: scale(8),                
   },
   datePill: {
     flexDirection: 'column',           
-    paddingTop: s(6),                    
-    paddingRight: s(10),                
-    paddingBottom: s(9),                
-    paddingLeft: s(8),                  
+    paddingTop: scale(6),                    
+    paddingRight: scale(10),                
+    paddingBottom: scale(9),                
+    paddingLeft: scale(8),                  
     justifyContent: 'center',         
     alignItems: 'center',            
-    marginBottom: s(3),
-    borderRightWidth:s(1),
+    marginBottom: scale(3),
+    borderRightWidth:scale(1),
     borderRightColor:'#485860',
   },
   date: { 
@@ -43,7 +43,7 @@ export default StyleSheet.create({
     fontStyle: 'normal',
     // fontWeight: '600',
     lineHeight: 22.4,  
-    paddingLeft: s(10),
+    paddingLeft: scale(10),
   },
   sub:   { 
     color: '#485860',            
@@ -51,14 +51,14 @@ export default StyleSheet.create({
     fontSize: 12,
     // fontWeight: '500',
     lineHeight: 16.8, 
-    paddingLeft: s(10),
-    paddingTop: s(3)
+    paddingLeft: scale(10),
+    paddingTop: scale(3)
   },
 
   chevCircle: {
-    width:s(47), 
-    height:s(37), 
-    borderRadius: s(60),
+    width:scale(47), 
+    height:scale(37), 
+    borderRadius: scale(60),
     alignItems: 'center', 
     justifyContent: 'center',
     backgroundColor:'#189BD7'  ,
@@ -73,11 +73,11 @@ export default StyleSheet.create({
     fontStyle: 'normal',         
     fontWeight: '700',
     lineHeight: 16,              
-    letterSpacing: s(0.28),
+    letterSpacing: scale(0.28),
     textTransform: 'uppercase',
-    paddingTop: s(6),
-    paddingBottom: s(10),
-    paddingLeft: s(13),
-    paddingRight: s(13),
+    paddingTop: scale(6),
+    paddingBottom: scale(10),
+    paddingLeft: scale(13),
+    paddingRight: scale(13),
   }, // white arrow
 });

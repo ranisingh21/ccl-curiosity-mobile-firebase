@@ -1,8 +1,5 @@
 import { StyleSheet } from 'react-native';
-import {
-  scale as s,
-  moderateScale as ms,
-} from 'react-native-size-matters/extend';
+import { scale } from 'react-native-size-matters/extend';
 import { globalStyles, factor } from '../globalStyles'; 
 
 export const styles = StyleSheet.create({
@@ -22,8 +19,8 @@ export const styles = StyleSheet.create({
     fontFamily: 'Quicksand-SemiBold',
     lineHeight: 24,
     color: '#2B353A',
-    marginTop: s(10),
-    marginBottom: s(8),
+    marginTop: scale(10),
+    marginBottom: scale(8),
   },
 
   deviceCardmuted: {
@@ -35,12 +32,12 @@ export const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
-    paddingTop: s(18),
+    paddingTop: scale(18),
   },
 
   label: {
     fontSize:13,
-    paddingHorizontal: s(5),
+    paddingHorizontal: scale(5),
     flex: 1,
   },
 
@@ -48,9 +45,9 @@ export const styles = StyleSheet.create({
     flexDirection: 'row',
     flex: 2,
     alignItems: 'center',
-    paddingHorizontal: s(14),
-    paddingVertical: s(10),
-    borderRadius: s(10),
+    paddingHorizontal: scale(14),
+    paddingVertical: scale(10),
+    borderRadius: scale(10),
     backgroundColor: '#189BD7',
   },
 
@@ -58,7 +55,7 @@ export const styles = StyleSheet.create({
     color: '#FFFFFF',
     fontWeight: '400',
     fontSize:17,
-    marginRight: s(8),
+    marginRight: scale(8),
     flex: 1,
   },
 
@@ -70,14 +67,14 @@ export const styles = StyleSheet.create({
   pinRow: {
     flexDirection: 'row',
     alignItems: 'center',
-    gap: s(5),
+    gap: scale(5),
   },
 
   pinBox: {
-    width: s(32),
-    paddingVertical: s(8),
-    minHeight: s(44),
-    borderRadius: s(8),
+    width: scale(32),
+    paddingVertical: scale(8),
+    minHeight: scale(44),
+    borderRadius: scale(8),
     borderWidth: 1,
     borderColor: 'grey',
     textAlign: 'center',

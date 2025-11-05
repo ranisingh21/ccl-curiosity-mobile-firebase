@@ -53,7 +53,7 @@ import React from 'react';
 import { View, Text,Image, TouchableOpacity } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import LogoBanner from './LogoBanner';
-import styles from '../../styles/registration/WelcomeScreen';
+import styles from '../../styles/registration/welcome-screen';
 
 const WelcomeScreen: React.FC = () => {
   const navigation = useNavigation<any>();
