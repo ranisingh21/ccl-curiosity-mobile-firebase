@@ -31,6 +31,7 @@ const TaskListCard = () => {
             >
               <Text style={styles.ctaArrow}>→</Text>
             </Pressable>
+            
           </View>
           <View style={styles.divider} />
         </View>

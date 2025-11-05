@@ -37,13 +37,13 @@ const RegSchoolSelectionCard: React.FC<RegSchoolSelectionCardProps> = ({ onNext}
 					<Text style={styles.bannerTextTop}>अगर प्रदेश, जिला या स्कूल का नाम लिस्ट </Text>
 					<View style={styles.bannerRowBottomBox}>
 					<Text style={styles.bannerTextBottom}>में नहीं है</Text>
-					<View style={styles.bannerArrowWrapper}>
+					{/* <View style={styles.bannerArrowWrapper}>
 						<Image
-						source={require("../../assets/Images/Frame 3473171.png")}
+						source={require("../../assets/Images/logo.png")}
 						style={styles.bannerArrow}
 						resizeMode="cover"
 						/>
-					</View>
+					</View> */}
 					</View>
 				</View>
 			</View>

@@ -27,10 +27,10 @@ export default StyleSheet.create({
   label: {
       color: '#2B353A',            
       textAlign: 'center',
-      fontFamily: 'Quicksand',
+      fontFamily: 'Quicksand-Medium',
       fontSize: 12,
       fontStyle: 'normal',
-      fontWeight: '500',
+      // fontWeight: '500',
       lineHeight: 14.4,           
       letterSpacing: s(1),
       textTransform: 'uppercase',

@@ -17,9 +17,9 @@ export default function Profile() {
     />
 
     <Text style={{ color: '#2B353A',
-      fontFamily: 'Quicksand',
+      fontFamily: 'Quicksand-Medium',
       fontSize: 14, 
-      fontWeight: '500',
+      // fontWeight: '500',
       lineHeight: 19.6,
       marginLeft:s(20),
       marginRight:s(20),

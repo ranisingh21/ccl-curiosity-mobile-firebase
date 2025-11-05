@@ -5,7 +5,7 @@ import NextButton from "./NextButton";
 interface RegUniqueCodeProps {
   onNext: () => void;
   onBack: () => void;
-}
+} 
 
 const RegUniqueCode: React.FC<RegUniqueCodeProps> = ({ onNext, onBack }) => {
   return (
@@ -31,7 +31,7 @@ const RegUniqueCode: React.FC<RegUniqueCodeProps> = ({ onNext, onBack }) => {
           </View>
           <Text style={styles.bannerMessage}>Dont have Unique Code</Text>
           <Image
-            source={require("../../assets/Images/Frame 3473171.png")}
+            source={require("../../assets/Images/thanksarrow.png")}
             style={styles.bannerArrowIcon}
           />
         </View>

@@ -28,12 +28,12 @@ export const styles = StyleSheet.create({
 
   title: {
     fontSize: 28,
-    fontWeight: '700',
     color: COLORS.text,
     marginBottom: s(10),
     paddingLeft: s(10),
-    fontFamily: 'Quicksand',
-    lineHeight: 20,
+    fontFamily: 'Quicksand-Bold',
+    // fontWeight: '700',
+    // lineHeight: 20,
   },
 
   tabsRow: {
@@ -48,7 +48,7 @@ export const styles = StyleSheet.create({
     color: COLORS.text,
     lineHeight: 20,
     fontFamily: 'Quicksand-SemiBold',
-    fontWeight: '600',
+    // fontWeight: '600',
     fontSize:14,
   },
 

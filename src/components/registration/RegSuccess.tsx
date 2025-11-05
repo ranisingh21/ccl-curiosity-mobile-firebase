@@ -1,11 +1,20 @@
 // import React from 'react';
 // import { View, Text, TouchableOpacity, Image } from 'react-native';
+// import { useNavigation } from '@react-navigation/native';
 // import styles from '../../styles/registration/RegSuccess';
+// // import Navigation from '../sessionList/navigation';
+
+// // type Props = {
+// //   onBack: () => void;   // gets passed from App.tsx
+// // };
 
 // const RegSuccess: React.FC = () => {
-//   interface RegSuccessProps {
-//   onBack: () => void;
-// }
+//   const navigation = useNavigation<any>();
+
+//   const handleNext = () => {
+//     navigation.navigate('navigation'); 
+//   };
+
 //   return (
 //     <View style={styles.screenBox}>
 //       <View style={styles.imageContainer}>
@@ -22,7 +31,7 @@
 //       </View>
 
 //       <View style={styles.registrationCheckButton}>
-//         <TouchableOpacity style={styles.CheckButtonBox}>
+//         <TouchableOpacity style={styles.CheckButtonBox} onPress={handleNext}>
 //           <Text style={styles.CheckButtonBoxText}>Check Sessions </Text>
 //           <Image
 //             source={require('../../assets/Images/thanksarrow.png')}
@@ -39,22 +48,17 @@
 
 
 
+
+
+
+
 import React from 'react';
 import { View, Text, TouchableOpacity, Image } from 'react-native';
-import { useNavigation } from '@react-navigation/native';
 import styles from '../../styles/registration/RegSuccess';
-// import Navigation from '../sessionList/navigation';
-
-// type Props = {
-//   onBack: () => void;   // gets passed from App.tsx
-// };
+import { useNavigation } from "@react-navigation/native";
 
 const RegSuccess: React.FC = () => {
   const navigation = useNavigation<any>();
-
-  const handleNext = () => {
-    navigation.navigate('navigation'); 
-  };
 
   return (
     <View style={styles.screenBox}>
@@ -72,8 +76,11 @@ const RegSuccess: React.FC = () => {
       </View>
 
       <View style={styles.registrationCheckButton}>
-        <TouchableOpacity style={styles.CheckButtonBox} onPress={handleNext}>
-          <Text style={styles.CheckButtonBoxText}>Check Sessions </Text>
+        <TouchableOpacity
+          style={styles.CheckButtonBox}
+          onPress={() => navigation.navigate("MainTabs")}
+        >
+          <Text style={styles.CheckButtonBoxText}>Check Sessions</Text>
           <Image
             source={require('../../assets/Images/thanksarrow.png')}
             style={styles.arrow}
@@ -85,4 +92,3 @@ const RegSuccess: React.FC = () => {
 };
 
 export default RegSuccess;
-

@@ -13,7 +13,7 @@ export default function CodeBoxes({ value, boxCount }: Props) {
 
   // pad with empty boxes if boxCount > value.length
   const items = Array.from({ length: count }, (_, i) => chars[i] ?? '');
-
+ 
   return (
     <View style={styles.row} accessibilityRole="list">
       {items.map((ch, i) => (

@@ -16,9 +16,5 @@ export const custom = {
   titlecolor:"#2B353A",
   textfontcolor:"#485860",
 };
-
-export const COLORS = {
-  
-  
-} as const;
+// export default CustomStyle;
 

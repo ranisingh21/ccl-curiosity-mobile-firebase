@@ -18,10 +18,10 @@ export default StyleSheet.create({
   },
   label: {
     color: '#2B353A',       // CSS variable fallback used
-    fontFamily: 'Quicksand',
+    fontFamily: 'Quicksand-Bold',
     fontSize: 18,
     fontStyle: 'normal',
-    fontWeight: '700',
+    // fontWeight: '700',
     lineHeight: 22
   },
   underline: {

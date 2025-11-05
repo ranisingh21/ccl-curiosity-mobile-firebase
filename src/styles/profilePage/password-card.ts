@@ -36,9 +36,10 @@ export default StyleSheet.create({
   caption: {
     textAlign: 'center',
     color: '#2B353A',
-    fontFamily: 'Quicksand',
+    fontFamily: 'Quicksand-SemiBold',
     fontSize: 16,
-    fontWeight: '600',
+    paddingTop:s(6),
+    // fontWeight: '600',
     lineHeight: 22.4,
   },
 });

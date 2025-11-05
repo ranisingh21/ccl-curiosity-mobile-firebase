@@ -15,7 +15,7 @@ export default StyleSheet.create({
   },
   datePill: {
     flexDirection: 'column',           
-    paddingTop: s(8),                    
+    paddingTop: s(6),                    
     paddingRight: s(10),                
     paddingBottom: s(9),                
     paddingLeft: s(8),                  
@@ -28,7 +28,7 @@ export default StyleSheet.create({
   date: { 
     color: '#2B353A',            
     textAlign: 'center',         
-    fontFamily: 'Quicksand-Regular',
+    fontFamily: 'Quicksand-Medium',
     fontSize: 14,        
     // fontWeight: '500',
     lineHeight: 14,  
@@ -38,7 +38,7 @@ export default StyleSheet.create({
   },
   title: { 
     color: '#485860',             
-    fontFamily: 'Quicksand-Bold',
+    fontFamily: 'Quicksand-SemiBold',
     fontSize: 16,
     fontStyle: 'normal',
     // fontWeight: '600',
@@ -47,11 +47,12 @@ export default StyleSheet.create({
   },
   sub:   { 
     color: '#485860',            
-    fontFamily: 'Quicksand-Bold',
+    fontFamily: 'Quicksand-Regular',
     fontSize: 12,
     // fontWeight: '500',
     lineHeight: 16.8, 
     paddingLeft: s(10),
+    paddingTop: s(3)
   },
 
   chevCircle: {
@@ -74,8 +75,8 @@ export default StyleSheet.create({
     lineHeight: 16,              
     letterSpacing: s(0.28),
     textTransform: 'uppercase',
-    paddingTop: ms(6),
-    paddingBottom: ms(10),
+    paddingTop: s(6),
+    paddingBottom: s(10),
     paddingLeft: s(13),
     paddingRight: s(13),
   }, // white arrow

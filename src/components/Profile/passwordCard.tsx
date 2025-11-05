@@ -21,5 +21,5 @@ export default function AppPasswordCard({ schoolName, location, code }: Props) {
 
       <Text style={styles.caption}>Unique Code</Text>
     </View>
-  );
+  ); 
 }

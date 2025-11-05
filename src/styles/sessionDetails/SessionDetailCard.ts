@@ -21,9 +21,10 @@ export const styles = StyleSheet.create({
   },
 
   hindiQuestion: {
-    fontFamily: 'NotoSansDevanagari-Regular',
+    // fontFamily: 'NotoSansDevanagari-SemiBold',
+    fontFamily: 'NotoSansDevanagari-Bold',
     fontSize: 18,
-    fontWeight: '700',
+    // fontWeight: '700',
     paddingBottom: s(10),
     lineHeight: 33,
     color:'#2B353A'
@@ -33,7 +34,8 @@ export const styles = StyleSheet.create({
     fontSize: 18,
     lineHeight: 33,
     fontWeight: '400',
-    fontFamily: 'NotoSansDevanagari-Regular',
+    // color:'red',
+    fontFamily: 'NotoSansDevanagar-Regular',
   },
 
   sectionTitle: {
