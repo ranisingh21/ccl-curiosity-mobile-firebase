@@ -28,11 +28,9 @@ const styles = StyleSheet.create({
   },
   text: {
     color: "#F6F6F6",
-    fontFamily: "Quicksand",
-    fontSize: moderateScale(18),
-    fontStyle: "normal",
-    fontWeight: "600",
-    lineHeight: scale(25.2),
+    fontFamily: "Quicksand-SemiBold",
+    fontSize: 18,
+    lineHeight: 25.2,
   },
 });
 

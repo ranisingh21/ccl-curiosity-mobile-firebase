@@ -1,6 +1,7 @@
 import React from "react";
 import { View, Text, Image, StyleSheet } from "react-native";
-import styles from "../../styles/LogoBanner";
+import styles from "../../styles/registration/LogoBanner";
+
 
 const LogoBanner: React.FC = () => {
   return (

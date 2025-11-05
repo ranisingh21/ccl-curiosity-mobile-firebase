@@ -35,11 +35,10 @@ export default StyleSheet.create({
 
   headerTitle: {
     fontSize: 28,
-    fontStyle:"normal",
-    fontWeight: "700",
     textAlign: "center",
     color:  custom.titlecolor,
     lineHeight: 33.6,
+    fontFamily:"Quicksand-Bold",
   },
 
   contentContainer: {
@@ -49,8 +48,7 @@ export default StyleSheet.create({
 
   fieldLabel: {
     fontSize: 16,
-    fontFamily: "Quicksand",
-    fontWeight: "700",
+    fontFamily: "Quicksand-Bold",
     color:  custom.titlecolor,
     paddingHorizontal: scale(10),
     lineHeight: 22.4,
@@ -83,9 +81,7 @@ export default StyleSheet.create({
   },
   fieldValue: {
     fontSize: 16,
-    fontFamily: "Quicksand",
-    fontStyle:"normal",
-    fontWeight: "600",
+    fontFamily: "Quicksand-Medium",
     color: custom.titlecolor,
     lineHeight: 22.4,
   },
@@ -119,7 +115,7 @@ export default StyleSheet.create({
 
   textLink: {
   color:  custom.titlecolor,
-  fontFamily: "Quicksand",
+  fontFamily: "Quicksand-Bold",
   fontSize: 14,
   fontStyle: "normal",
   fontWeight: "600",
@@ -129,7 +125,7 @@ export default StyleSheet.create({
 
  textLink2: {
   color: custom.textfontcolor,
-  fontFamily: "Quicksand",
+  fontFamily: "Quicksand-Medium",
   fontSize: 14,
   fontStyle: "normal",
   fontWeight: "600",

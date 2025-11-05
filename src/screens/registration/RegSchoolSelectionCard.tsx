@@ -1,19 +1,17 @@
 import React from "react";
 import { View, Text, TouchableOpacity, Image } from "react-native";
 import styles from "../../styles/registration/RegSchoolSelectionCard";
-import NextButton from "./NextButton";
+import NextButton from "../../components/registration/NextButton";
 
 interface RegSchoolSelectionCardProps {
   onNext: () => void;
-  onBack: () => void;
 }
-const RegSchoolSelectionCard: React.FC<RegSchoolSelectionCardProps> = ({ onNext,  onBack})=> {
+const RegSchoolSelectionCard: React.FC<RegSchoolSelectionCardProps> = ({ onNext})=> {
   return (
     <View style={styles.card}>
 
       <View style={styles.headerBox}>
-        <TouchableOpacity  onPress={onBack} style={styles.headerIconWrapper}
-        >
+        <TouchableOpacity style={styles.headerIconWrapper}>
           <Image
             source={require("../../assets/Images/Icon.png")}
             style={styles.headerIcon}
@@ -41,7 +39,7 @@ const RegSchoolSelectionCard: React.FC<RegSchoolSelectionCardProps> = ({ onNext,
 					<Text style={styles.bannerTextBottom}>में नहीं है</Text>
 					<View style={styles.bannerArrowWrapper}>
 						<Image
-						source={require("../../assets/Images/thanksarrow.png")}
+						source={require("../../assets/Images/Frame 3473171.png")}
 						style={styles.bannerArrow}
 						resizeMode="cover"
 						/>

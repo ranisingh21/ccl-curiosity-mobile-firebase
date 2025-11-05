@@ -34,19 +34,15 @@ export default StyleSheet.create({
 
   title: {
     fontSize: 20,
-    fontWeight: "600",
     color: "#F6F6F6",
-    fontFamily:"Quicksand",
-    fontStyle:"normal",
+    fontFamily:"Quicksand-Bold",
     lineHeight: 24,
   },
 
   subTitle: {
     fontSize: 12,
     color: "#F6F6F6",
-    fontFamily:"Quicksand",
-    fontStyle:"normal",
-    fontWeight: "500",
+    fontFamily:"Quicksand-Regular",
     lineHeight: 16.8,
   },
   mainContainer2:{

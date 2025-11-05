@@ -196,7 +196,7 @@ CheckButtonBox: {
   CheckButtonBoxText: {
   textAlign: 'center',
   fontSize: 16,
-  fontFamily: "Quicksand-Medium",
+  fontFamily: "Quicksand-SemiBold",
   lineHeight:22.4,
   },
 
