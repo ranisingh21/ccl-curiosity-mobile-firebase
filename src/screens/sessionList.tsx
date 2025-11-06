@@ -91,6 +91,7 @@
 
 import React, { useMemo, useState } from 'react';
 import { View, Text, SectionList } from 'react-native';
+import { useNavigation } from '@react-navigation/native';
 import SessionHeader, { TabKey } from '../components/sessionList/SessionListHeader';
 import SectionTitle from '../components/common/SectionTitle';
 import SessionRow, { Session } from '../components/sessionList/SessionRow';
@@ -110,10 +111,10 @@ const DATA: Session[] = [
 ];
 
 type Section = { title: string; data: Session[] };
-type Props = {onOpenSession: (s: Session)=>void};
 
-export default function SessionsScreen({onOpenSession}:Props) {
+const SessionsScreen: React.FC = () => {
   const [tab, setTab] = useState<TabKey>('active');
+  const navigation = useNavigation<any>();
 
   const sections: Section[] = useMemo(() => {
     if (tab === 'active') {
@@ -145,7 +146,7 @@ export default function SessionsScreen({onOpenSession}:Props) {
             <SectionTitle title={section.title} />
           </View>
         )}
-        renderItem={({ item }) => <SessionRow session={item} onPress={(id) => onOpenSession(item)} />}
+        renderItem={({ item }) => <SessionRow session={item} onPress={() => navigation.navigate('SessionDetail', { session: item })} />}
         contentContainerStyle={{ paddingBottom: scale(24) }}
         ListEmptyComponent={<Text style={{ textAlign: 'center', color: '#6B7280', marginTop: scale(24) }}>No items</Text>}
         stickySectionHeadersEnabled={false}
@@ -153,3 +154,5 @@ export default function SessionsScreen({onOpenSession}:Props) {
     </View>
   );
 }
+
+export default SessionsScreen;

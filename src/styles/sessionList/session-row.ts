@@ -66,18 +66,10 @@ export default StyleSheet.create({
   chev: { 
     // height:s(17),
     // width: s(19),
-    color: '#FFF',               
-    textAlign: 'center',        
-    fontFamily: 'Inter',        
-    fontSize: 20,
-    fontStyle: 'normal',         
-    fontWeight: '700',
-    lineHeight: 16,              
-    letterSpacing: scale(0.28),
-    textTransform: 'uppercase',
-    paddingTop: scale(6),
-    paddingBottom: scale(10),
-    paddingLeft: scale(13),
-    paddingRight: scale(13),
+      color: '#fff',
+      fontSize: 20,
+      fontWeight: '700',
+      paddingBottom: scale(17),
+  
   }, // white arrow
 });

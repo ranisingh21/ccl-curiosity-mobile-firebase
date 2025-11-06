@@ -11,16 +11,17 @@ import TaskListCard from "../components/sessionDetails/TaskListCard";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { Session } from "../components/sessionList/SessionRow";
 
-type SessionsStackParamList = {
-  SessionsList: undefined;
-  SessionDetail: { session: Session };
-};
+// type SessionsStackParamList = {
+//   SessionsList: undefined;
+//   SessionDetail: { session: Session };
+// };
 
-type Props = NativeStackScreenProps<SessionsStackParamList, "SessionDetail">;
+// type Props = NativeStackScreenProps<SessionsStackParamList, "SessionDetail">;
 
-export default function SessionDetailScreen({ route, navigation }: Props) {
-  const { session } = route.params;
+// export default function SessionDetailScreen({ route, navigation }: Props) {
+//   const { session } = route.params;
 
+const SessionDetail: React.FC = () => {
   return (
     <ScrollView>
      <SafeAreaView style={globalStyles.safe}>
@@ -39,3 +40,5 @@ export default function SessionDetailScreen({ route, navigation }: Props) {
       </ScrollView>
   );
 }
+export default SessionDetail;
+
