@@ -7,7 +7,7 @@ const RegistrationSchoolContent: React.FC = () => {
     <>
       <View style={styles.imageContainer}>
         <Image
-          source={require("../../assets/Images/Rectangle.png")}
+          source={require("../../assets/Images/logo.png")}
           style={styles.logo}
           resizeMode="contain"
         />

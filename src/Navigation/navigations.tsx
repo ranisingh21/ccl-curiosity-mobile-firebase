@@ -5,7 +5,7 @@ import React from "react";
 
   import IntroScreen from "../components/registration/IntroScreen";
   import WelcomeScreen from "../components/registration/WelcomeScreen";
-  import RegSelectSchoolScreen from "../components/registration/RegSelectSchoolScreen";
+  import RegSelectSchoolScreen from "../screens/RegSelectSchoolScreen";
   import RegSuccess from "../components/registration/RegSuccess";
 
   const Stack = createNativeStackNavigator();

@@ -5,8 +5,8 @@ import styles from '../../styles/sessionList/session-list-header';
 export type TabKey = 'active' | 'upcoming' | 'past';
 
 type Props = {
-  value: TabKey;                       // which tab is selected
-  onChange: (next: TabKey) => void;    // notify parent
+  value: TabKey;                       
+  onChange: (next: TabKey) => void;    
 };
 
 const TABS: { key: TabKey; label: string }[] = [
