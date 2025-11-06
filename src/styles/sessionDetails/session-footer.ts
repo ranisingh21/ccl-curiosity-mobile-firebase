@@ -1,8 +1,6 @@
 import { StyleSheet } from 'react-native';
 import { scale } from 'react-native-size-matters/extend';
 
-import {factor } from '../globalStyles';
-
 export const styles = StyleSheet.create({
   bottomBarWrapper: {
     left: 0,

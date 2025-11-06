@@ -1,5 +1,5 @@
 import { StyleSheet } from "react-native";
-import {custom} from "./custom";
+import { custom } from '../globalStyles';
 import { scale} from "react-native-size-matters/extend";
 
 export default StyleSheet.create({
