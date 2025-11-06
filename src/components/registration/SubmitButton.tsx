@@ -1,6 +1,6 @@
 import React from "react";
 import { TouchableOpacity, Text, StyleSheet } from "react-native";
-import { scale, moderateScale } from "react-native-size-matters/extend";
+import { scale} from "react-native-size-matters/extend";
 import { custom } from "../../styles/registration/custom";
 
 interface SubmitButtonProps {

@@ -1,10 +1,11 @@
 import React from "react";
   import { NavigationContainer, useFocusEffect } from "@react-navigation/native";
   import { createNativeStackNavigator } from "@react-navigation/native-stack";
+  import MainTabsNavigator from "./sessionTabNavigator";
 
   import IntroScreen from "../components/registration/IntroScreen";
   import WelcomeScreen from "../components/registration/WelcomeScreen";
-  import RegSelectSchoolScreen from "../screens/RegSelectSchoolScreen";
+  import RegSelectSchoolScreen from "../components/registration/RegSelectSchoolScreen";
   import RegSuccess from "../components/registration/RegSuccess";
 
   const Stack = createNativeStackNavigator();
@@ -23,23 +24,8 @@ import React from "react";
             component={RegSelectSchoolScreen}
           />
           <Stack.Screen name="RegSuccess" component={RegSuccess} />
-           <Stack.Screen name="navigation" component={GoToMainTabsBridge} />  
+           <Stack.Screen name="MainTabs" component={MainTabsNavigator} />
         </Stack.Navigator>
      
     );
-  }
-
-  function GoToMainTabsBridge({ navigation }: any) {
-    useFocusEffect(
-      React.useCallback(() => {
-        // move from Registration (child) to MainTabs (in the root)
-        navigation.getParent()?.reset({
-          index: 0,
-          routes: [{ name: "MainTabs" }],
-        });
-      }, [navigation])
-    );
-  
-    // nothing to render; it just redirects
-    return null;
   }
