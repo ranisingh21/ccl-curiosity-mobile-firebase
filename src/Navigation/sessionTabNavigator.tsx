@@ -1,4 +1,3 @@
-// src/navigation/MainTabsNavigator.tsx
 import React from "react";
 import { View } from "react-native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
@@ -62,13 +61,12 @@ export default function MainTabsNavigator() {
   return (
     <Tab.Navigator
       screenOptions={{ headerShown: false }}
-      tabBar={(props) => <CustomFooterTabBar {...props} />}  // <— uses your Footer.tsx
+      tabBar={(props) => <CustomFooterTabBar {...props} />} 
     >
       <Tab.Screen
         name="sessions"
         component={SessionsStack}
         options={({ route }) => ({
-          // hide footer on session detail
           tabBarStyle: shouldHideFooter(route) ? { display: "none" } : undefined,
         })}
       />
