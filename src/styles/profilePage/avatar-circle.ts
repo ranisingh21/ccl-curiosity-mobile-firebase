@@ -1,17 +1,19 @@
 // src/components/header.styles.ts
 import { StyleSheet } from 'react-native';
-import { ms,s , factor} from '../../theme/scales';
+import { scale } from 'react-native-size-matters/extend';
+
+
 
 export default StyleSheet.create({
   container: {
-    width: s(59),
+    width: scale(59),
     // height: ms(59),
     flexShrink: 0,
     aspectRatio: 1,            
     backgroundColor: '#D5E8F5',
-    borderWidth: s(3.333),        
+    borderWidth: scale(3.333),        
     borderColor: '#FFF',       
-    borderRadius: s(59/2), 
+    borderRadius: scale(59/2), 
     
   },  
   title: {
@@ -22,7 +24,7 @@ export default StyleSheet.create({
     fontStyle: 'normal',  
     fontWeight: '700',
     lineHeight: 24, 
-    paddingTop: s(13),
-    paddingBottom: s(15)
+    paddingTop: scale(13),
+    paddingBottom: scale(15)
   }
 });

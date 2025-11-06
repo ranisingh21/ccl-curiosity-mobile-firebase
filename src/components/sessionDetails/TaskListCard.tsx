@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, Pressable } from 'react-native';
-import { styles} from '../../styles/sessionDetails/TaskListCard';
+import { styles} from '../../styles/sessionDetails/task-list-card';
 
 const TaskListCard = () => {
   return (

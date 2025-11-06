@@ -1,11 +1,13 @@
 import React from 'react';
 import { View, Text, TouchableOpacity, Image } from 'react-native';
 import styles from '../../styles/registration/reg-success';
-import { useNavigation } from "@react-navigation/native";
+
+
 
 const RegSuccess: React.FC = () => {
-  const navigation = useNavigation<any>();
-
+  interface RegSuccessProps {
+  onBack: () => void;
+}
   return (
     <View style={styles.screenBox}>
       <View style={styles.imageContainer}>
@@ -22,13 +24,13 @@ const RegSuccess: React.FC = () => {
       </View>
 
       <View style={styles.registrationCheckButton}>
-        <TouchableOpacity
-          style={styles.CheckButtonBox}
-          onPress={() => navigation.navigate("MainTabs")}
-        >
-          <Text style={styles.CheckButtonBoxText}>Check Sessions</Text>
+        <TouchableOpacity style={styles.CheckButtonBox}>
+          <Text style={styles.CheckButtonBoxText}>Check Sessions </Text>
           <Image
             source={require('../../assets/Images/thanksarrow.png')}
+
+
+            // /home/pooja-meena/ccl-curiosity-mobile-demo/src/assets/Images/thanksarrow.png
             style={styles.arrow}
           />
         </TouchableOpacity>

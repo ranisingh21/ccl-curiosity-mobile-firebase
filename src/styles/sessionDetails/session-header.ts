@@ -1,8 +1,5 @@
 import { StyleSheet } from 'react-native';
-import {
-  scale as s,
-  moderateScale as ms,
-} from 'react-native-size-matters/extend';
+import { scale } from 'react-native-size-matters/extend';
 import { factor } from '../globalStyles';
 
 export const COLORS = {
@@ -14,23 +11,23 @@ export const COLORS = {
 
 export const styles = StyleSheet.create({
   headerContaner: {
-    paddingHorizontal: s(19),
-    paddingBottom: s(12),
+    paddingHorizontal: scale(19),
+    paddingBottom: scale(12),
     backgroundColor: COLORS.headerColor,
   },
 
   backArrowImage: {
     fontSize: 30,
     color: COLORS.text,
-    marginTop: s(32),
-    marginBottom: s(25),
+    marginTop: scale(32),
+    marginBottom: scale(25),
   },
 
   title: {
     fontSize: 28,
     color: COLORS.text,
-    marginBottom: s(10),
-    paddingLeft: s(10),
+    marginBottom: scale(10),
+    paddingLeft: scale(10),
     fontFamily: 'Quicksand-Bold',
     // fontWeight: '700',
     // lineHeight: 20,
@@ -39,9 +36,9 @@ export const styles = StyleSheet.create({
   tabsRow: {
     flexDirection: 'row',
     alignItems: 'center',
-    gap: s(10),
-    paddingBottom: s(8),
-    paddingLeft: s(11),
+    gap: scale(10),
+    paddingBottom: scale(8),
+    paddingLeft: scale(11),
   },
 
   tab: {
@@ -54,7 +51,7 @@ export const styles = StyleSheet.create({
 
   tabDivider: {
     color: COLORS.text,
-    marginHorizontal: s(1),
+    marginHorizontal: scale(1),
     fontWeight: 400,
     fontSize: 14,
   },

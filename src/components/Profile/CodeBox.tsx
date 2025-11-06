@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text } from 'react-native';
-import styles from '../../styles/profilePage/codebox.styles';
+import styles from '../../styles/profilePage/code-box';
 
 type Props = {
   value: string;        // characters to render as boxes
@@ -13,7 +13,7 @@ export default function CodeBoxes({ value, boxCount }: Props) {
 
   // pad with empty boxes if boxCount > value.length
   const items = Array.from({ length: count }, (_, i) => chars[i] ?? '');
-
+ 
   return (
     <View style={styles.row} accessibilityRole="list">
       {items.map((ch, i) => (

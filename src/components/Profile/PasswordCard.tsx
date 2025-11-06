@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text } from 'react-native';
-import styles from '../../styles/profilePage/passwordCard.styles';
-import CodeBoxes from './codebox';
+import styles from '../../styles/profilePage/password-card';
+import CodeBoxes from './CodeBox';
 
 type Props = {
   schoolName: string;
@@ -21,5 +21,5 @@ export default function AppPasswordCard({ schoolName, location, code }: Props) {
 
       <Text style={styles.caption}>Unique Code</Text>
     </View>
-  );
+  ); 
 }

@@ -9,7 +9,7 @@ import JoinSessionMobile from "../components/sessionDetails/JoinSessionMobile";
 import TaskListCard from "../components/sessionDetails/TaskListCard";
 
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
-import type { Session } from "../components/sessionList/sessionRow";
+import type { Session } from "../components/sessionList/SessionRow";
 
 type SessionsStackParamList = {
   SessionsList: undefined;

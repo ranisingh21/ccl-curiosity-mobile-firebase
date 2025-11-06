@@ -1,20 +1,17 @@
 import React from "react";
 import { View, Text, TouchableOpacity, Image } from "react-native";
 import styles from "../../styles/registration/reg-school-selection-card";
-import NextButton from "./NextButton";
+import NextButton from "../../components/registration/NextButton";
 
-interface RegSchoolSelectionCard {
+interface RegSchoolSelectionCardProps {
   onNext: () => void;
-  onBack: () => void;
 }
-const RegSchoolSelectionCard: React.FC<RegSchoolSelectionCard> = ({ onBack,onNext})=> {
+const RegSchoolSelectionCard: React.FC<RegSchoolSelectionCardProps> = ({ onNext})=> {
   return (
     <View style={styles.card}>
 
       <View style={styles.headerBox}>
-        <TouchableOpacity style={styles.headerIconWrapper}
-        onPress={onBack}
-        >
+        <TouchableOpacity style={styles.headerIconWrapper}>
           <Image
             source={require("../../assets/Images/Icon.png")}
             style={styles.headerIcon}
@@ -42,7 +39,7 @@ const RegSchoolSelectionCard: React.FC<RegSchoolSelectionCard> = ({ onBack,onNex
 					<Text style={styles.bannerTextBottom}>में नहीं है</Text>
 					<View style={styles.bannerArrowWrapper}>
 						<Image
-						source={require("../../assets/Images/thanksarrow.png")}
+						source={require("../../assets/Images/Frame 3473171.png")}
 						style={styles.bannerArrow}
 						resizeMode="cover"
 						/>
@@ -103,6 +100,10 @@ const RegSchoolSelectionCard: React.FC<RegSchoolSelectionCard> = ({ onBack,onNex
 };
 
 export default RegSchoolSelectionCard;
+
+
+
+
 
 
 

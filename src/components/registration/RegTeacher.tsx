@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text, Image, TouchableOpacity } from "react-native";
 import { useNavigation } from "@react-navigation/native";
-import styles from "../../styles/registration/RegTeacher";
+import styles from "../../styles/registration/reg-teacher";
 import SubmitButton from "./SubmitButton";
 
 interface RegTeacherProps {

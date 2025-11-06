@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, TouchableOpacity, Image } from 'react-native';
-import createStyles from '../../styles/registration/RegisterSuccessScreen';
+import createStyles from '../../styles/registration/register-success-screen';
 
 const RegisterSuccessScreen: React.FC = () => {
   const styles = createStyles();

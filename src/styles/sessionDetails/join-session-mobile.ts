@@ -1,8 +1,5 @@
 import { StyleSheet } from 'react-native';
-import {
-  scale as s,
-  moderateScale as ms,
-} from 'react-native-size-matters/extend';
+import { scale ,moderateScale} from 'react-native-size-matters/extend';
 import { globalStyles, factor } from '../globalStyles';
 
 
@@ -16,7 +13,7 @@ export const styles = StyleSheet.create({
     fontWeight: '700',
     color: '#2B353A',
     fontFamily: 'Quicksand-SemiBold',
-    marginBottom: s(20),
+    marginBottom: scale(20),
   },
 
   muted: {
@@ -30,22 +27,22 @@ export const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     backgroundColor: '#EAF2F5',
-    borderRadius: ms(12,factor),
+    borderRadius: moderateScale(12,factor),
     borderWidth: 1,
     borderColor: '#E1E8EB',
-    paddingLeft: s(21),
-    width: s(304),
-    height: s(58),
-    marginLeft:s(10),
+    paddingLeft: scale(21),
+    width: scale(304),
+    height: scale(58),
+    marginLeft:scale(10),
   },
 
   iconCircle: {
-    width: s(34),
+    width: scale(34),
     aspectRatio: 1,
-    borderRadius: s(17),
+    borderRadius: scale(17),
     alignItems: 'center',
     justifyContent: 'center',
-    marginRight: s(10),
+    marginRight: scale(10),
   },
 
   actionText: {

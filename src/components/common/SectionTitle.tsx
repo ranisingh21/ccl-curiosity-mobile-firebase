@@ -1,6 +1,6 @@
 import React from 'react';
 import { Text, View } from 'react-native';
-import styles from '../../styles/sessionList/sectionTitle.styles';
+import styles from '../../styles/sessionList/section-title';
 
 type Props = {
   title: string;

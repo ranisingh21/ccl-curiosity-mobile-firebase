@@ -1,8 +1,5 @@
 import { StyleSheet } from 'react-native';
-import {
-  scale as s,
-  moderateScale as ms,
-} from 'react-native-size-matters/extend';
+import { scale ,moderateScale} from 'react-native-size-matters/extend';
 import { globalStyles, factor } from '../globalStyles';
 
 export const styles = StyleSheet.create({
@@ -10,11 +7,11 @@ export const styles = StyleSheet.create({
     // paddingVertical: 10,
   },
   sessionCardBox: {
-    marginTop: s(50),
+    marginTop: scale(50),
   },
   allCardBox: {
     ...globalStyles.allCardBox,
-    marginTop: s(60),
+    marginTop: scale(60),
   },
   card:{
     ...globalStyles.card,
@@ -25,7 +22,7 @@ export const styles = StyleSheet.create({
     fontFamily: 'NotoSansDevanagari-Bold',
     fontSize: 18,
     // fontWeight: '700',
-    paddingBottom: s(10),
+    paddingBottom: scale(10),
     lineHeight: 33,
     color:'#2B353A'
   },
@@ -46,28 +43,28 @@ export const styles = StyleSheet.create({
     fontSize:16,
     fontWeight: '700',
     color: '#111827',
-    marginBottom: s(20),
+    marginBottom: scale(20),
   },
   row: {
     flexDirection: 'row',
     alignItems: 'flex-start',
-    marginBottom: s(8),
-    paddingHorizontal: s(18),
+    marginBottom: scale(8),
+    paddingHorizontal: scale(18),
   },
   dot: {
-    width: s(8),
-    height: s(8),
-    borderRadius: s(3),
+    width: scale(8),
+    height: scale(8),
+    borderRadius: scale(3),
     backgroundColor: '#111827',
-    marginTop: s(8),
-    marginRight: s(15),
+    marginTop: scale(8),
+    marginRight: scale(15),
   },
-  item: { flex: 1, fontSize: ms(15,factor), lineHeight: s(29), color: '#1f2937' },
+  item: { flex: 1, fontSize: moderateScale(15,factor), lineHeight: scale(29), color: '#1f2937' },
   imagebox: {
     width: '100%',
     aspectRatio: 322 / 157,
-    borderRadius: s(10),
-    marginBottom:s(10),
+    borderRadius: scale(10),
+    marginBottom:scale(10),
   },
 
   sessionActivityImage: {

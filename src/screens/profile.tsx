@@ -1,14 +1,14 @@
 import React from 'react';
 import { View, Text } from 'react-native';
-import PasswordCard from '../components/Profile/passwordCard';
-import PersonCard from '../components/Profile/personCard';
-import SectionTitle from '../components/sessionList/sectionTitle';
-import {factor, ms,s} from '../theme/scales';
+import PasswordCard from '../components/Profile/PasswordCard';
+import PersonCard from '../components/Profile/PersonCard';
+import SectionTitle from '../components/common/SectionTitle';
+import { scale } from 'react-native-size-matters/extend';
 
 export default function Profile() {
   return (
     <View>
-    <View style={{paddingTop:s(40)}}>
+    <View style={{paddingTop:scale(40)}}>
     <SectionTitle title="App Password" />
     <PasswordCard 
       schoolName="KGBV Sangat Guda"
@@ -17,13 +17,13 @@ export default function Profile() {
     />
 
     <Text style={{ color: '#2B353A',
-      fontFamily: 'Quicksand',
+      fontFamily: 'Quicksand-Medium',
       fontSize: 14, 
-      fontWeight: '500',
+      // fontWeight: '500',
       lineHeight: 19.6,
-      marginLeft:s(20),
-      marginRight:s(20),
-      marginBottom:s(40), }}>
+      marginLeft:scale(20),
+      marginRight:scale(20),
+      marginBottom:scale(40), }}>
       For attending sessions, this password can be shared with other teachers of your KGBV.
       They have to register, to gain access.
     </Text>

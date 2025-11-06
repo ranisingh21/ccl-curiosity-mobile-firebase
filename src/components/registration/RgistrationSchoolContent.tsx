@@ -1,6 +1,6 @@
 import React from "react";
 import { View, Text, Image } from "react-native";
-import styles from "../../styles/registration/RegSelectSchoolScreen";
+import styles from "../../styles/registration/reg-select-school-screen";
 
 const RegistrationSchoolContent: React.FC = () => {
   return (

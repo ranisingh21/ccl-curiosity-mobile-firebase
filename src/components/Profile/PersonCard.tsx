@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text } from 'react-native';
-import styles from '../../styles/profilePage/personCard.styles';
+import styles from '../../styles/profilePage/person-card';
 import AvatarCircle from './AvatarCircle';
 
 type Props = {

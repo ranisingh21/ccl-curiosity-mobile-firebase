@@ -8,7 +8,7 @@ import {
   TextStyle,
   Image,
 } from 'react-native';
-import { styles } from '../../styles/sessionDetails/JoinSessionMobile';
+import { styles } from '../../styles/sessionDetails/join-session-mobile';
 
 interface JoinSessionMobileProps {
   containerStyle?: StyleProp<ViewStyle>; 
