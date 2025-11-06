@@ -8,6 +8,10 @@ import Header from "../components/common/AppHeader";
 import SessionsScreen from "../screens/sessionList";
 import SessionDetail from "../screens/MainSessionDetail";
 import ProfileScreen from "../screens/profile";
+import AttendanceForm from "../components/tasklist/AttendanceForm"
+import UploadMedia from "../components/tasklist/UploadMedia"
+import Worksheet from "../components/tasklist/Worksheet"
+import ChallengeQues from "../components/tasklist/ChallengeQues"
 import type { Session } from "../components/sessionList/SessionRow";
 import { scale } from 'react-native-size-matters/extend';
 
@@ -16,6 +20,10 @@ import CustomFooterTabBar from "../components/common/CustomFooterBar";
 type SessionsStackParamList = {
   SessionsList: undefined;
   SessionDetail: { session: Session };
+  AttendanceForm: undefined;
+  UploadMedia: undefined;
+  Worksheet: undefined;
+  ChallengeQues: undefined;
 };
 
 const SessionsStackNav = createNativeStackNavigator<SessionsStackParamList>();
@@ -24,6 +32,10 @@ function SessionsStack() {
     <SessionsStackNav.Navigator screenOptions={{ headerShown: false }}>
       <SessionsStackNav.Screen name="SessionsList" component={SessionsListWithHeader} />
       <SessionsStackNav.Screen name="SessionDetail" component={SessionDetail} />
+      <SessionsStackNav.Screen name="AttendanceForm" component={AttendanceForm} />
+      <SessionsStackNav.Screen name="UploadMedia" component={UploadMedia} />
+      <SessionsStackNav.Screen name="Worksheet" component={Worksheet} />
+      <SessionsStackNav.Screen name="ChallengeQues" component={ChallengeQues} />
     </SessionsStackNav.Navigator>
   );
 }
