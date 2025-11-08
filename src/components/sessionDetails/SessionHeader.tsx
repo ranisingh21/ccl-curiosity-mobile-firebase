@@ -1,8 +1,8 @@
 import React from 'react';
 import { View, Text, Pressable, StatusBar, Image } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
-import { styles, COLORS } from '../../styles/sessionDetails/session-header'; 
-
+import { styles } from '../../styles/sessionDetails/session-header'; 
+import { custom } from '../../styles/globalStyles';
 const SessionHeader: React.FC = () => {
   const navigation = useNavigation(); // 👈 grab navigation
 
@@ -12,7 +12,7 @@ const SessionHeader: React.FC = () => {
 
   return (
     <View style={styles.headerContaner}>
-      <StatusBar barStyle="dark-content" backgroundColor={COLORS.bgSoft} />
+      <StatusBar barStyle="dark-content" backgroundColor={custom.bgSoft} />
       <Pressable hitSlop={12} onPress={handleBack} accessibilityRole="button"
         accessibilityLabel="Go back">
         <Image

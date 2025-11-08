@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 import { scale } from 'react-native-size-matters/extend';
-import { globalStyles, factor } from '../globalStyles'; 
+import { globalStyles} from '../globalStyles'; 
 
 export const styles = StyleSheet.create({
   allCard: {

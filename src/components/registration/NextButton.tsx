@@ -1,6 +1,6 @@
 import React from "react";
 import { TouchableOpacity, Text, StyleSheet, View, Image } from "react-native";
-import { custom } from "../../styles/registration/custom";
+import { custom } from "../../styles/globalStyles";
 import { scale, verticalScale, moderateScale } from "react-native-size-matters/extend";
 
 interface NextButtonProps {

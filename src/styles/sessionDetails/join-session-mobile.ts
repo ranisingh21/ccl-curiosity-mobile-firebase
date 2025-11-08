@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 import { scale ,moderateScale} from 'react-native-size-matters/extend';
-import { globalStyles, factor } from '../globalStyles';
+import { globalStyles} from '../globalStyles';
 
 
 export const styles = StyleSheet.create({
@@ -27,7 +27,7 @@ export const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     backgroundColor: '#EAF2F5',
-    borderRadius: moderateScale(12,factor),
+    borderRadius: moderateScale(12),
     borderWidth: 1,
     borderColor: '#E1E8EB',
     paddingLeft: scale(21),

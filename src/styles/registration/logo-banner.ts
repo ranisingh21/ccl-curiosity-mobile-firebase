@@ -1,5 +1,6 @@
 import { StyleSheet } from "react-native";
 import { scale} from "react-native-size-matters/extend";
+import {custom} from "../../styles/globalStyles"
 const styles = StyleSheet.create({
 
 containerBox: {
@@ -17,7 +18,7 @@ logo:{
 },
 
 brandTop: {
-  color: "#FFF",
+  color: custom.card,
   fontSize: 20,
   textAlign: "center",
   marginTop: scale(20),

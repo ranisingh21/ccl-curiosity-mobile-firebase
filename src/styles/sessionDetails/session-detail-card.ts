@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 import { scale ,moderateScale} from 'react-native-size-matters/extend';
-import { globalStyles, factor } from '../globalStyles';
+import { globalStyles } from '../globalStyles';
 
 export const styles = StyleSheet.create({
   container: {
@@ -59,7 +59,7 @@ export const styles = StyleSheet.create({
     marginTop: scale(8),
     marginRight: scale(15),
   },
-  item: { flex: 1, fontSize: moderateScale(15,factor), lineHeight: scale(29), color: '#1f2937' },
+  item: { flex: 1, fontSize: moderateScale(15), lineHeight: scale(29), color: '#1f2937' },
   imagebox: {
     width: '100%',
     aspectRatio: 322 / 157,

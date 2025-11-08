@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-import { custom as custom } from './custom';
+import { custom } from '../globalStyles';
 import { scale} from 'react-native-size-matters/extend';
 
 const styles = StyleSheet.create({
@@ -27,7 +27,7 @@ textBlock: {
 },
 
 thanksBox: {
-  color: '#FFF',
+  color: custom.card,
   fontSize: 16,
   textAlign: 'center',
   fontFamily: "Quicksand-SemiBold",
@@ -37,7 +37,7 @@ thanksBox: {
 
 name: {
   marginTop: scale(25),
-  color: '#FFF',
+  color: custom.card,
   fontSize: 20,
   textAlign: 'center',
   fontFamily: "Quicksand-SemiBold",

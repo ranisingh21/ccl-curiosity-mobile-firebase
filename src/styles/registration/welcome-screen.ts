@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-import { custom } from './custom';
+import { custom } from '../globalStyles';
 import { scale} from 'react-native-size-matters/extend';
 
 const styles = StyleSheet.create({
@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
   },
 
   bottomContainer: {
-    backgroundColor: '#fff',
+    backgroundColor: custom.card,
     borderTopLeftRadius:20 ,
     borderTopRightRadius: 20 ,
     alignItems: 'center',
@@ -73,7 +73,7 @@ const styles = StyleSheet.create({
 
   loginButton: {
     borderRadius:8,
-    backgroundColor: '#FFF',
+    backgroundColor:custom.card,
     marginTop: scale(9),
     alignItems: 'center',
     shadowColor: '#000',
