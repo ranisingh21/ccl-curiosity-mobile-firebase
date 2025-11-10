@@ -1,4 +1,4 @@
-package com.cclmob
+package com.ccl.curiosity
 
 import android.app.Application
 import com.facebook.react.PackageList

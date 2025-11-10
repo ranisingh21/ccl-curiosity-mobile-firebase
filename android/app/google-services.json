@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "452120401653",
+    "project_id": "ccl-playground-dev",
+    "storage_bucket": "ccl-playground-dev.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452120401653:android:f5fe439d692d579ec2d7bc",
+        "android_client_info": {
+          "package_name": "com.ccl.curiosity"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlPZUhQ1oQDzC7-4Qjhhfm6QWLZARu9jY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

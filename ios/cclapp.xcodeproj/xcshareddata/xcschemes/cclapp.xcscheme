@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "cclMob.app"
-               BlueprintName = "cclMob"
-               ReferencedContainer = "container:cclMob.xcodeproj">
+               BuildableName = "cclapp.app"
+               BlueprintName = "cclapp"
+               ReferencedContainer = "container:cclapp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "cclMobTests.xctest"
-               BlueprintName = "cclMobTests"
-               ReferencedContainer = "container:cclMob.xcodeproj">
+               BuildableName = "cclappTests.xctest"
+               BlueprintName = "cclappTests"
+               ReferencedContainer = "container:cclapp.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "cclMob.app"
-            BlueprintName = "cclMob"
-            ReferencedContainer = "container:cclMob.xcodeproj">
+            BuildableName = "cclapp.app"
+            BlueprintName = "cclapp"
+            ReferencedContainer = "container:cclapp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "cclMob.app"
-            BlueprintName = "cclMob"
-            ReferencedContainer = "container:cclMob.xcodeproj">
+            BuildableName = "cclapp.app"
+            BlueprintName = "cclapp"
+            ReferencedContainer = "container:cclapp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

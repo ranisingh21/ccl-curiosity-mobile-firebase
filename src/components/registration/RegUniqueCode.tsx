@@ -14,7 +14,7 @@ const RegUniqueCode: React.FC<RegUniqueCodeProps> = ({ onNext, onBack }) => {
       <View style={styles.headerContainer}>
         <TouchableOpacity onPress={onBack} style={styles.iconWrapper}>
           <Image
-            source={require("../../assets/Images/Icon.png")}
+            source={require("../../assets/Images/Iconimage.svg")}
             style={styles.iconImage}
             resizeMode="contain"
           />
