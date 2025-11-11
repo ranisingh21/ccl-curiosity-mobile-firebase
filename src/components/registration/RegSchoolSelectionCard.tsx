@@ -2,6 +2,7 @@ import React from "react";
 import { View, Text, TouchableOpacity, Image } from "react-native";
 import styles from "../../styles/registration/reg-school-selection-card";
 import NextButton from "./NextButton";
+import axios from "axios";
 
 interface RegSchoolSelectionCard {
   onNext: () => void;
