@@ -161,9 +161,13 @@ export default function RegSchoolSelectionCard({ onNext, onBack }: Props) {
         />
 
         {/* Next */}
-        <View style={styles.nextButtonWrapper}>
+        {/* <View style={styles.nextButtonWrapper}>
           <NextButton onPress={onNext} disabled={!canProceed} />{" "}
-        </View>
+        </View> */}
+        <View style={styles.nextButtonWrapper}>
+  <NextButton onPress={onNext} disabled={!canProceed} />
+</View>
+
       </View>
     </View>
   );
