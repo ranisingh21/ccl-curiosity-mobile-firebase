@@ -5,11 +5,23 @@ import { scale, verticalScale, moderateScale } from "react-native-size-matters/e
 
 interface NextButtonProps {
   onPress?: () => void;
+  disabled?: boolean;
 }
 
-const NextButton: React.FC<NextButtonProps> = ({ onPress }) => {
+const NextButton: React.FC<NextButtonProps> = ({ onPress, disabled = false }) => {
+  const handlePress = () => {
+    if (disabled) return;       // guard
+    onPress?.();
+  };
+
   return (
-    <TouchableOpacity style={styles.button} onPress={onPress}>
+    <TouchableOpacity
+      style={[styles.button, disabled && styles.buttonDisabled]} 
+      onPress={handlePress}
+      activeOpacity={disabled ? 1 : 0.7}
+      disabled={disabled}                                      
+      accessibilityState={{ disabled }}
+    >
       <View style={styles.textContainer}>
         <Text style={styles.buttonText}>Next</Text>
         <Image
@@ -33,6 +45,10 @@ const styles = StyleSheet.create({
     width: scale(170),
     aspectRatio: 170 / 50,
   },
+  buttonDisabled: {
+    opacity: 0.5,   
+    elevation: 0,
+  },
   textContainer: {
     flexDirection: "row",
     alignItems: "center",
@@ -53,4 +69,3 @@ const styles = StyleSheet.create({
 });
 
 export default NextButton;
-

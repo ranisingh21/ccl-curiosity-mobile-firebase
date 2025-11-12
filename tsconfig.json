@@ -1,6 +1,21 @@
-{
-"extends": "./node_modules/@react-native/typescript-config/tsconfig.json",
-  "include": ["**/*.ts", "**/*.tsx"],
-  "exclude": ["**/node_modules", "**/Pods"]
-}
+// {
+// "extends": "./node_modules/@react-native/typescript-config/tsconfig.json",
+//   "include": ["**/*.ts", "**/*.tsx"],
+//   "exclude": ["**/node_modules", "**/Pods"]
+// }
 
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "moduleResolution": "bundler",
+    "jsx": "react-native",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["*"]
+    }
+  },
+  "include": ["src"]
+}
