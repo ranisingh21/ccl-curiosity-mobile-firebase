@@ -88,13 +88,13 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { useNavigation } from '@react-navigation/native';
 import { scale } from 'react-native-size-matters/extend';
 
-import Header from '../components/common/AppHeader';
+import Header from '../Shanti/common/AppHeader';
 import SessionsScreen from '../screens/sessionList';
 import ProfileScreen from '../screens/profile';
-import CustomFooterTabBar from '../components/common/CustomFooterBar';
+import CustomFooterTabBar from '../Shanti/common/CustomFooterBar';
 
 // If you have a Session type, import it. If not, you can use `any`.
-import type { Session } from '../components/sessionList/SessionRow';
+import type { Session } from '../Shanti/sessionList/SessionRow';
 
 type TabParamList = { sessions: undefined; profile: undefined };
 const Tab = createBottomTabNavigator<TabParamList>();

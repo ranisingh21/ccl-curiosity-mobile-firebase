@@ -3,12 +3,12 @@ import { View } from "react-native";
 import { useNavigation, useRoute } from "@react-navigation/native";
 import styles from "../styles/registration/reg-select-school-screen";
 
-import RegistrationSchoolContent from "../components/registration/RgistrationSchoolContent";
-import RegSchoolSelectionCard from "../components/registration/RegSchoolSelectionCard";
-import RegUniqueCode from "../components/registration/RegUniqueCode";
-import RegTeacher from "../components/registration/RegTeacher";
-import OtpVerification from "../components/registration/OtpVerification";
-import Login from "../components/registration/Login";
+import RegistrationSchoolContent from "../Shanti/registration/RgistrationSchoolContent";
+import RegSchoolSelectionCard from "../Shanti/registration/RegSchoolSelectionCard";
+import RegUniqueCode from "../Shanti/registration/RegUniqueCode";
+import RegTeacher from "../Shanti/registration/RegTeacher";
+import OtpVerification from "../Shanti/registration/OtpVerification";
+import Login from "../Shanti/registration/Login";
 
 const RegSelectSchoolScreen: React.FC = () => {
   const route = useRoute<any>();

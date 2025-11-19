@@ -2,14 +2,14 @@ import React from "react";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import MainTabsNavigator from "./sessionTabNavigator";
 
-import IntroScreen from "../components/registration/IntroScreen";
-import WelcomeScreen from "../components/registration/WelcomeScreen";
+import IntroScreen from "../Shanti/registration/IntroScreen";
+import WelcomeScreen from "../Shanti/registration/WelcomeScreen";
 import RegSelectSchoolScreen from "../screens/RegSelectSchoolScreen";
-import RegSuccess from "../components/registration/RegSuccess";
-import AttendanceForm from "../components/tasklist/AttendanceForm";
-import UploadMedia from "../components/tasklist/UploadMedia";
-import Worksheet from "../components/tasklist/Worksheet";
-import ChallengeQues from "../components/tasklist/ChallengeQues";
+import RegSuccess from "../Shanti/registration/RegSuccess";
+import AttendanceForm from "../Shanti/tasklist/AttendanceForm";
+import UploadMedia from "../Shanti/tasklist/UploadMedia";
+import Worksheet from "../Shanti/tasklist/Worksheet";
+import ChallengeQues from "../Shanti/tasklist/ChallengeQues";
 
 import SessionDetail from "../screens/MainSessionDetail";
 

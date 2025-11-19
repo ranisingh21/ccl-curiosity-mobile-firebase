@@ -1,8 +1,8 @@
 import React from 'react';
 import { View, Text } from 'react-native';
-import PasswordCard from '../components/Profile/PasswordCard';
-import PersonCard from '../components/Profile/PersonCard';
-import SectionTitle from '../components/common/SectionTitle';
+import PasswordCard from '../Shanti/Profile/PasswordCard';
+import PersonCard from '../Shanti/Profile/PersonCard';
+import SectionTitle from '../Shanti/common/SectionTitle';
 import { scale } from 'react-native-size-matters/extend';
 
 export default function Profile() {
